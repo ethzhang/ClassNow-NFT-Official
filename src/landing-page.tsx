@@ -43,76 +43,6 @@ function LandingPage() {
             </div>
             <hr className="solid"/>
 
-            {/*<div className="wrapper-2">*/}
-            {/*    <Row justify={"center"} align={"middle"}>*/}
-            {/*        <Col span={24}>*/}
-            {/*            <Card className="buy-box">*/}
-            {/*                <Row justify={"center"} align={"middle"}>*/}
-            {/*                    <Col span={18}>*/}
-            {/*                        <p className="buy-title">COLLECT THE<br/>FIRST LAUNCH!</p>*/}
-            {/*                    </Col>*/}
-            {/*                    <Col span={6}>*/}
-            {/*                        <a href="https://veace.xyz/">*/}
-            {/*                            <span className="buy-button">ON VEACE</span>*/}
-            {/*                        </a>*/}
-            {/*                    </Col>*/}
-            {/*                </Row>*/}
-            {/*                <Row style={{padding: '0 72px'}} justify={"space-between"}>*/}
-            {/*                    <p className="buy-content">Release 5000 NFTs.</p>*/}
-            {/*                    <p className="buy-content">On March 1st at 9.00 am.</p>*/}
-            {/*                </Row>*/}
-            {/*            </Card>*/}
-            {/*        </Col>*/}
-            {/*    </Row>*/}
-            {/*</div>*/}
-            {/*<hr className="divider"/>*/}
-
-            {/*<div className="wrapper-0">*/}
-            {/*    <Row>*/}
-            {/*        <p className="main-eager">EAGER</p>*/}
-            {/*    </Row>*/}
-            {/*    <Row>*/}
-            {/*        <p className="main-emu"> EMU</p>*/}
-            {/*    </Row>*/}
-            {/*</div>*/}
-            {/*<hr className="divider"/>*/}
-            {/*<div className="wrapper-1">*/}
-            {/*    <Row justify={"center"} align={"middle"}>*/}
-            {/*        <Col span={18}>*/}
-            {/*            <Card className="box">*/}
-            {/*                <Row justify={"center"} align={"middle"}>*/}
-            {/*                    <Col span={11}>*/}
-            {/*                        <Row>*/}
-            {/*                            <Col>*/}
-            {/*                                <p className="para-title-collection">MORE</p>*/}
-            {/*                            </Col>*/}
-            {/*                        </Row>*/}
-            {/*                        <Row>*/}
-            {/*                            <Col offset={4}>*/}
-            {/*                                <p className="para-title-collection">THAN</p>*/}
-            {/*                            </Col>*/}
-            {/*                        </Row>*/}
-            {/*                        <Row>*/}
-            {/*                            <Col offset={8}>*/}
-            {/*                                <p className="para-title-collection">FLEX</p>*/}
-            {/*                            </Col>*/}
-            {/*                        </Row>*/}
-            {/*                    </Col>*/}
-            {/*                    <Col span={13}>*/}
-            {/*                        <p className="para-content-collection">Eager Emu is a collection of 5000 Eager Emu*/}
-            {/*                            NFTs. Unique*/}
-            {/*                            digital assets stored on Vision blockchain. Each emu has its own value.*/}
-            {/*                            Authentic art treasure.</p>*/}
-            {/*                        <p className="para-content-collection">*/}
-            {/*                            <a className="link">Learn NFT on ClassNow.</a></p>*/}
-            {/*                    </Col>*/}
-            {/*                </Row>*/}
-            {/*            </Card>*/}
-            {/*        </Col>*/}
-            {/*    </Row>*/}
-            {/*</div>*/}
-            {/*<hr className="divider"/>*/}
-
             <div className="wrapper-a29bfe">
                 <Row justify={"center"}>
                     <Col span={18}>
@@ -145,42 +75,7 @@ function LandingPage() {
                     </Col>
                 </Row>
             </div>
-            <hr className="divider"/>
-            {/*<div className="wrapper-a29bfe">*/
-            }
-            {/*    <Row justify={"center"}>*/
-            }
-            {/*        <Col span={18}>*/
-            }
-            {/*            <p className="para-title-others">PEAK INTO THE FUTURE</p>*/
-            }
-            {/*        </Col>*/
-            }
-            {/*    </Row>*/
-            }
-
-            {/*    <Row justify={"center"}>*/
-            }
-            {/*        <Col span={18}>*/
-            }
-            {/*            <Row gutter={[16, 16]}>*/
-            }
-            {/*                <Card className="stage-1"><p>01</p></Card>*/
-            }
-            {/*                <Card className="stage-2"><p>01</p></Card>*/
-            }
-            {/*                <Card className="stage-3"><p>01</p></Card>*/
-            }
-            {/*            </Row>*/
-            }
-            {/*        </Col>*/
-            }
-            {/*    </Row>*/
-            }
-            {/*</div>*/
-            }
-            {/*<hr className="divider"/>*/
-            }
+            <hr className="solid"/>
             <div className="wrapper-55efc4">
                 <Row justify={"center"}>
                     <Col span={18}>
@@ -201,6 +96,7 @@ function LandingPage() {
                 {/*<Carousel slides={slides} autoplay={true} interval={1000}/>*/}
             </div>
 
+            <hr className="solid-bottom"/>
             <Footer/>
         </div>
     )

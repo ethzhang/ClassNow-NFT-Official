@@ -333,6 +333,12 @@
     /*border-color: black;*/
 }
 
+.solid-bottom {
+    border-top: 5px solid black;
+    margin: 0;
+    padding: 0;
+}
+
 /*Footer*/
 .footer {
     background-color: #EFF3F2;
