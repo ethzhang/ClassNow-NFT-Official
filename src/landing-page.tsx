@@ -23,23 +23,43 @@ function LandingPage() {
         <div className="app">
             <Navbar/>
 
-            <img className="main-pic" src={mainPic} alt="NFT PIC"/>
-
-            <div className="wrapper-18dcff">
+            <div className="wrapper-0">
+                <Row className="main">
+                    <Col>
+                        <p className="main-eager">EAGER</p>
+                    </Col>
+                    <Col>
+                        <p className="main-eager"> EMU</p>
+                    </Col>
+                </Row>
+            </div>
+            <hr className="solid"/>
+            <div className="wrapper-1">
                 <Row justify={"center"} align={"middle"}>
                     <Col span={18}>
                         <Card className="box">
                             <Row justify={"center"} align={"middle"}>
                                 <Col span={11}>
-                                    <p className="para-title-collection">EAGER EMU<br/>COLLECTION</p>
-
+                                    <Row>
+                                        <Col>
+                                            <p className="para-title-collection">MORE</p>
+                                        </Col>
+                                    </Row>
+                                    <Row>
+                                        <Col offset={4}>
+                                            <p className="para-title-collection">THAN</p>
+                                        </Col>
+                                    </Row>
+                                    <Row>
+                                        <Col offset={8}>
+                                            <p className="para-title-collection">FLEX</p>
+                                        </Col>
+                                    </Row>
                                 </Col>
                                 <Col span={13}>
-                                    <p className="para-content-1">It's much more than flex!</p>
-                                    <p className="para-content">Eager Emu world is a collection of 5000 Eager Emu NFTs,
-                                        unique digital assets stored as ERC-720 tokens on Vision blockchain. Authentic
-                                        art treasure. Each emu has its own value. Authentic art. Something about the
-                                        design such as the accessory, fur color, etc.</p>
+                                    <p className="para-content">Eager Emu is a collection of 5000 Eager Emu NFTs. Unique
+                                        digital assets stored on Vision blockchain. Each emu has its own value.
+                                        Authentic art treasure.</p>
                                     <p className="para-content">
                                         <a className="link">Learn NFT on ClassNow.</a></p>
                                 </Col>
@@ -48,23 +68,30 @@ function LandingPage() {
                     </Col>
                 </Row>
             </div>
-
-            <Row justify={"center"} style={{padding: '50px 0 0'}}>
-                <Col span={18} className="buy-box">
-                    <Row justify={"center"} align={"middle"}>
-                        <Col span={20}>
-                            <p className="buy-title">BUY THE FIRST LAUNCH!</p>
-                            <p className="buy-content">The initial sale starts at March 1st at 9.00 am. To buy a
-                                emu,
-                                check out marketplace, Veace.</p>
-                        </Col>
-                        <Col span={4}>
-                            <Button className="buy-button">BUY ON VEACE</Button>
-                        </Col>
-                    </Row>
-                </Col>
-            </Row>
-
+            <hr className="solid"/>
+            <div className="wrapper-2">
+                <Row justify={"center"} align={"middle"}>
+                    <Col span={24}>
+                        <Card className="buy-box">
+                            <Row justify={"center"} align={"middle"}>
+                                <Col span={18}>
+                                    <p className="buy-title">COLLECT THE<br/>FIRST LAUNCH!</p>
+                                </Col>
+                                <Col span={6}>
+                                    <a href="https://veace.xyz/">
+                                        <span className="buy-button">ON VEACE</span>
+                                    </a>
+                                </Col>
+                            </Row>
+                            <Row style={{padding: '0 72px'}} justify={"space-between"}>
+                                <p className="buy-content">Release 5000 NFTs.</p>
+                                <p className="buy-content">On March 1st at 9.00 am.</p>
+                            </Row>
+                        </Card>
+                    </Col>
+                </Row>
+            </div>
+            <hr className="solid"/>
             <div className="wrapper-74b9ff">
                 <Row justify={"center"}>
                     <Col span={18}>
@@ -109,7 +136,7 @@ function LandingPage() {
                     </Col>
                 </Row>
             </div>
-
+            <hr className="solid"/>
             <div className="wrapper-a29bfe">
                 <Row justify={"center"}>
                     <Col span={18}>
@@ -126,7 +153,7 @@ function LandingPage() {
                     </Col>
                 </Row>
             </div>
-
+            <hr className="solid"/>
             <div className="wrapper-55efc4">
                 <Row justify={"center"}>
                     <Col span={18}>

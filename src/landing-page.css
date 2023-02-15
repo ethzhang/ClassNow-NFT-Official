@@ -81,49 +81,59 @@
 }
 
 /*LandingPage*/
+.solid {
+    border-top: 10px solid black;
+    margin: 0;
+    padding: 0;
+}
+
 .app {
     min-height: 100vh;
     max-width: 1560px;
     margin: 0;
-    background-color: #0064FF;
+    background-color: #EFF3F2;
 }
 
-.wrapper-18dcff {
-    /*background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);*/
-    background-color: #7efff5;
-    padding: 100px 0;
-}
-
-.wrapper-74b9ff {
-    background-color: #fffa65;
-    padding: 50px 0;
-}
-
-.wrapper-a29bfe {
-    background-color: #55efc4;
-    padding: 50px 0;
-}
-
-.wrapper-55efc4 {
-    background-color: #a29bfe;
-    padding: 50px 0;
-}
-
-.box {
-    border-width: 5px;
-    border-color: black;
-    border-radius: 50px;
-}
-
-.main-pic {
+.wrapper-0 {
+    background-image: url("./f.png");
     width: 100%;
     height: auto;
     aspect-ratio: 1920/892;
 }
 
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 64px;
+}
+
+.main-eager {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    text-shadow: 30px 20px black,
+    -5px 0 black, 0 5px black, 5px 0 black, 0 -5px black;
+    /*margin: 0;*/
+    text-align: left;
+}
+
+.divider {
+    height: 10px;
+    width: 10px;
+    background-color: black;
+}
+
 .link {
     color: #4D92FF;
-    /*text-shadow: 0 0 5px rgb(77,146,255);*/
+}
+
+.wrapper-1 {
+    /*background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);*/
+    background-color: #7efff5;
+    padding: 100px 0;
 }
 
 .para-title-collection {
@@ -131,8 +141,10 @@
     font-size: 64px;
     font-weight: bold;
     font-style: italic;
-    color: #000000;
-    margin: 0 0 16px;
+    color: white;
+    text-shadow: 0 10px black,
+    -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    margin: 0;
 }
 
 .para-title-others {
@@ -144,56 +156,73 @@
     margin: 0 0 16px;
 }
 
-.para-content-1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    color: #000000;
-    /*text-shadow: 0 0 10px rgb(0, 100, 255);*/
-}
-
 .para-content {
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     font-weight: bold;
-    color: #000000;
+    color: black;
+}
+
+.box {
+    border-width: 5px;
+    border-color: black;
+    border-radius: 50px;
+    padding: 50px 70px;
+}
+
+.wrapper-2 {
+    padding: 100px 0;
 }
 
 .buy-box {
-    background-color: #EFF3F2;
-    box-shadow: 0 0 10px rgb(77, 146, 255) inset, 0 0 30px rgb(77, 146, 255);
-    padding: 24px 0 24px 24px;
+    border-width: 5px 0;
+    border-color: black;
+    /*border-color: #C62E42;*/
+    border-radius: 0px;
+    padding: 50px 10%;
 }
 
 .buy-title {
     font-family: 'Montserrat', sans-serif;
-    font-size: 28px;
+    font-size: 64px;
     font-weight: bold;
-    color: #17253B;
+    color: white;
+    text-shadow: 0 10px black,
+    -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     margin: 0 0 16px;
 }
 
 .buy-content {
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 32px;
     font-weight: normal;
     color: #17253B;
 }
 
 .buy-button {
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 48px;
     font-weight: bold;
-    background-color: #17253B;
+    background-color: black;
     color: #EFF3F2;
-    box-shadow: 0 0 10px rgb(77, 146, 255) inset;
+    /*box-shadow: 0 0 10px rgb(77, 146, 255) inset;*/
+}
+.wrapper-74b9ff {
+    background-color: #fffa65;
+    padding: 50px 0;
 }
 
-.divider {
-    height: 100px;
-    width: 100%;
-    background-color: #0064FF;
+.wrapper-a29bfe {
+    background-color: #55efc4;
+    padding: 50px 0;
 }
+
+.wrapper-55efc4 {
+    /*background-color: #a29bfe;*/
+    padding: 50px 0;
+}
+
+
 
 .stage-1 {
     width: 100%;
