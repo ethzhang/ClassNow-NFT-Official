@@ -3,6 +3,7 @@ import './landing-page.css';
 import {Button, Card, Col, Row} from "antd";
 import Navbar from "./navbar";
 import Footer from "./footer";
+import nft1 from "./1.png";
 import nft11 from "./11.png";
 import nft2 from "./2.png";
 import nft3 from "./3.png";
@@ -26,75 +27,94 @@ function LandingPage() {
         <div className="app">
             <Navbar/>
 
-            <div className="wrapper-2">
-                <Row justify={"center"} align={"middle"}>
-                    <Col span={24}>
-                        <Card className="buy-box">
-                            <Row justify={"center"} align={"middle"}>
-                                <Col span={18}>
-                                    <p className="buy-title">COLLECT THE<br/>FIRST LAUNCH!</p>
-                                </Col>
-                                <Col span={6}>
-                                    <a href="https://veace.xyz/">
-                                        <span className="buy-button">ON VEACE</span>
-                                    </a>
-                                </Col>
-                            </Row>
-                            <Row style={{padding: '0 72px'}} justify={"space-between"}>
-                                <p className="buy-content">Release 5000 NFTs.</p>
-                                <p className="buy-content">On March 1st at 9.00 am.</p>
-                            </Row>
-                        </Card>
+            <div className="main-wrapper">
+                <Row justify={"start"} align={"middle"}>
+                    <Col style={{margin: '0 64px'}} span={10}>
+                        {/*<Card style={{padding: '64px 0'}}>*/}
+                            <img className="main-nft-pic" width={'100%'} src={nft1} alt="nft"/>
+                        {/*</Card>*/}
+                    </Col>
+                    <Col style={{margin: '0 64px'}}>
+                        {/*<p className="main-name">EAGER EMU</p>*/}
+                        <p className="main-sentence">COLLECT THE<br/>FIRST LAUNCH!</p>
+                        <p className="main-count">5000 / 5000 NFTs</p>
+                        <a href="https://veace.xyz/">
+                            <span className="main-buy-button">BUY ON VEACE</span>
+                        </a>
                     </Col>
                 </Row>
             </div>
             <hr className="solid"/>
 
-            <div className="wrapper-0">
-                <Row>
-                    <p className="main-eager">EAGER</p>
-                </Row>
-                <Row>
-                    <p className="main-emu"> EMU</p>
-                </Row>
-            </div>
-            <hr className="solid"/>
-            <div className="wrapper-1">
-                <Row justify={"center"} align={"middle"}>
-                    <Col span={18}>
-                        <Card className="box">
-                            <Row justify={"center"} align={"middle"}>
-                                <Col span={11}>
-                                    <Row>
-                                        <Col>
-                                            <p className="para-title-collection">MORE</p>
-                                        </Col>
-                                    </Row>
-                                    <Row>
-                                        <Col offset={4}>
-                                            <p className="para-title-collection">THAN</p>
-                                        </Col>
-                                    </Row>
-                                    <Row>
-                                        <Col offset={8}>
-                                            <p className="para-title-collection">FLEX</p>
-                                        </Col>
-                                    </Row>
-                                </Col>
-                                <Col span={13}>
-                                    <p className="para-content-collection">Eager Emu is a collection of 5000 Eager Emu
-                                        NFTs. Unique
-                                        digital assets stored on Vision blockchain. Each emu has its own value.
-                                        Authentic art treasure.</p>
-                                    <p className="para-content-collection">
-                                        <a className="link">Learn NFT on ClassNow.</a></p>
-                                </Col>
-                            </Row>
-                        </Card>
-                    </Col>
-                </Row>
-            </div>
-            <hr className="solid"/>
+            {/*<div className="wrapper-2">*/}
+            {/*    <Row justify={"center"} align={"middle"}>*/}
+            {/*        <Col span={24}>*/}
+            {/*            <Card className="buy-box">*/}
+            {/*                <Row justify={"center"} align={"middle"}>*/}
+            {/*                    <Col span={18}>*/}
+            {/*                        <p className="buy-title">COLLECT THE<br/>FIRST LAUNCH!</p>*/}
+            {/*                    </Col>*/}
+            {/*                    <Col span={6}>*/}
+            {/*                        <a href="https://veace.xyz/">*/}
+            {/*                            <span className="buy-button">ON VEACE</span>*/}
+            {/*                        </a>*/}
+            {/*                    </Col>*/}
+            {/*                </Row>*/}
+            {/*                <Row style={{padding: '0 72px'}} justify={"space-between"}>*/}
+            {/*                    <p className="buy-content">Release 5000 NFTs.</p>*/}
+            {/*                    <p className="buy-content">On March 1st at 9.00 am.</p>*/}
+            {/*                </Row>*/}
+            {/*            </Card>*/}
+            {/*        </Col>*/}
+            {/*    </Row>*/}
+            {/*</div>*/}
+            {/*<hr className="divider"/>*/}
+
+            {/*<div className="wrapper-0">*/}
+            {/*    <Row>*/}
+            {/*        <p className="main-eager">EAGER</p>*/}
+            {/*    </Row>*/}
+            {/*    <Row>*/}
+            {/*        <p className="main-emu"> EMU</p>*/}
+            {/*    </Row>*/}
+            {/*</div>*/}
+            {/*<hr className="divider"/>*/}
+            {/*<div className="wrapper-1">*/}
+            {/*    <Row justify={"center"} align={"middle"}>*/}
+            {/*        <Col span={18}>*/}
+            {/*            <Card className="box">*/}
+            {/*                <Row justify={"center"} align={"middle"}>*/}
+            {/*                    <Col span={11}>*/}
+            {/*                        <Row>*/}
+            {/*                            <Col>*/}
+            {/*                                <p className="para-title-collection">MORE</p>*/}
+            {/*                            </Col>*/}
+            {/*                        </Row>*/}
+            {/*                        <Row>*/}
+            {/*                            <Col offset={4}>*/}
+            {/*                                <p className="para-title-collection">THAN</p>*/}
+            {/*                            </Col>*/}
+            {/*                        </Row>*/}
+            {/*                        <Row>*/}
+            {/*                            <Col offset={8}>*/}
+            {/*                                <p className="para-title-collection">FLEX</p>*/}
+            {/*                            </Col>*/}
+            {/*                        </Row>*/}
+            {/*                    </Col>*/}
+            {/*                    <Col span={13}>*/}
+            {/*                        <p className="para-content-collection">Eager Emu is a collection of 5000 Eager Emu*/}
+            {/*                            NFTs. Unique*/}
+            {/*                            digital assets stored on Vision blockchain. Each emu has its own value.*/}
+            {/*                            Authentic art treasure.</p>*/}
+            {/*                        <p className="para-content-collection">*/}
+            {/*                            <a className="link">Learn NFT on ClassNow.</a></p>*/}
+            {/*                    </Col>*/}
+            {/*                </Row>*/}
+            {/*            </Card>*/}
+            {/*        </Col>*/}
+            {/*    </Row>*/}
+            {/*</div>*/}
+            {/*<hr className="divider"/>*/}
 
             <div className="wrapper-a29bfe">
                 <Row justify={"center"}>
@@ -128,25 +148,42 @@ function LandingPage() {
                     </Col>
                 </Row>
             </div>
-            <hr className="solid"/>
-            {/*<div className="wrapper-a29bfe">*/}
-            {/*    <Row justify={"center"}>*/}
-            {/*        <Col span={18}>*/}
-            {/*            <p className="para-title-others">PEAK INTO THE FUTURE</p>*/}
-            {/*        </Col>*/}
-            {/*    </Row>*/}
+            <hr className="divider"/>
+            {/*<div className="wrapper-a29bfe">*/
+            }
+            {/*    <Row justify={"center"}>*/
+            }
+            {/*        <Col span={18}>*/
+            }
+            {/*            <p className="para-title-others">PEAK INTO THE FUTURE</p>*/
+            }
+            {/*        </Col>*/
+            }
+            {/*    </Row>*/
+            }
 
-            {/*    <Row justify={"center"}>*/}
-            {/*        <Col span={18}>*/}
-            {/*            <Row gutter={[16, 16]}>*/}
-            {/*                <Card className="stage-1"><p>01</p></Card>*/}
-            {/*                <Card className="stage-2"><p>01</p></Card>*/}
-            {/*                <Card className="stage-3"><p>01</p></Card>*/}
-            {/*            </Row>*/}
-            {/*        </Col>*/}
-            {/*    </Row>*/}
-            {/*</div>*/}
-            {/*<hr className="solid"/>*/}
+            {/*    <Row justify={"center"}>*/
+            }
+            {/*        <Col span={18}>*/
+            }
+            {/*            <Row gutter={[16, 16]}>*/
+            }
+            {/*                <Card className="stage-1"><p>01</p></Card>*/
+            }
+            {/*                <Card className="stage-2"><p>01</p></Card>*/
+            }
+            {/*                <Card className="stage-3"><p>01</p></Card>*/
+            }
+            {/*            </Row>*/
+            }
+            {/*        </Col>*/
+            }
+            {/*    </Row>*/
+            }
+            {/*</div>*/
+            }
+            {/*<hr className="divider"/>*/
+            }
             <div className="wrapper-55efc4">
                 <Row justify={"center"}>
                     <Col span={18}>
