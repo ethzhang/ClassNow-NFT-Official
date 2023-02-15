@@ -1,12 +1,13 @@
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+
 /*Navbar*/
 .navbar {
     height: 64px;
     overflow: hidden;
     position: relative;
-    background: #17253B;
+    background: #EFF3F2;
     padding: 0 60px;
 }
-
 
 .left-menu {
     float: left;
@@ -19,21 +20,19 @@
     padding: 0 8px;
     margin: 0 50px;
     height: 100%;
-    color: #000000;
     vertical-align: text-bottom;
 }
 
 .logo-name {
-    font-family: "Helvetica Neue";
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: bold;
-    color: #EFF3F2;
+    color: #3d3d3d;
 }
 
 .logo {
     margin: 0 15px;
 }
-
 
 .left-menu-item {
     display: inline-block;
@@ -43,14 +42,13 @@
 }
 
 .menu-button {
-    font-family: "Helvetica Neue";
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    font-weight: normal;
-    color: #EFF3F2;
-    background-color: #17253B;
-    border: #17253B;
+    font-weight: bold;
+    color: #3d3d3d;
+    background-color: #EFF3F2;
+    border: #EFF3F2;
 }
-
 
 .right-menu {
     float: right;
@@ -65,77 +63,110 @@
     vertical-align: text-bottom;
 }
 
-
 .social-link-item {
-    color: #EFF3F2;
-    background-color: #17253B;
-    border: #17253B;
+    color: #3d3d3d;
+    background-color: #EFF3F2;
+    border: #EFF3F2;
     height: 100%;
     margin: 0 10px;
 }
 
 .connect-button {
-    font-family: "Helvetica Neue";
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: bold;
+    color: #EFF3F2;
+    background-color: #3d3d3d;
     margin: 0 50px;
 }
-
 
 /*LandingPage*/
 .app {
     min-height: 100vh;
     max-width: 1560px;
     margin: 0;
-    background-color: #17253B;
+    background-color: #0064FF;
+}
+
+.wrapper-18dcff {
+    /*background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);*/
+    background-color: #7efff5;
+    padding: 100px 0;
+}
+
+.wrapper-74b9ff {
+    background-color: #fffa65;
+    padding: 50px 0;
+}
+
+.wrapper-a29bfe {
+    background-color: #55efc4;
+    padding: 50px 0;
+}
+
+.wrapper-55efc4 {
+    background-color: #a29bfe;
+    padding: 50px 0;
+}
+
+.box {
+    border-width: 5px;
+    border-color: black;
+    border-radius: 50px;
 }
 
 .main-pic {
     width: 100%;
     height: auto;
-    aspect-ratio: 10/3;
-    background-color: #EFF3F2;
+    aspect-ratio: 1920/892;
 }
 
 .link {
     color: #4D92FF;
-    text-shadow: 0 0 5px rgb(77,146,255);
+    /*text-shadow: 0 0 5px rgb(77,146,255);*/
 }
 
 .para-title-collection {
-    font-family: "Helvetica Neue";
-    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
     font-weight: bold;
     font-style: italic;
-    color: #EFF3F2;
+    color: #000000;
     margin: 0 0 16px;
 }
 
 .para-title-others {
-    font-family: "Helvetica Neue";
-    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
     font-weight: bold;
     font-style: italic;
-    color: #EFF3F2;
+    color: #000000;
     margin: 0 0 16px;
 }
 
+.para-content-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    /*text-shadow: 0 0 10px rgb(0, 100, 255);*/
+}
+
 .para-content {
-    font-family: "Helvetica Neue";
-    font-size: 16px;
-    font-weight: normal;
-    color: #EFF3F2;
-    padding: 0 50px 0 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
 }
 
 .buy-box {
     background-color: #EFF3F2;
-    box-shadow: 0 0 10px rgb(77,146,255) inset,0 0 30px rgb(77,146,255);
+    box-shadow: 0 0 10px rgb(77, 146, 255) inset, 0 0 30px rgb(77, 146, 255);
     padding: 24px 0 24px 24px;
 }
 
 .buy-title {
-    font-family: "Helvetica Neue";
+    font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     font-weight: bold;
     color: #17253B;
@@ -143,27 +174,25 @@
 }
 
 .buy-content {
-    font-family: "Helvetica Neue";
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: normal;
     color: #17253B;
 }
 
 .buy-button {
-    font-family: "Helvetica Neue";
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: bold;
     background-color: #17253B;
     color: #EFF3F2;
-    box-shadow: 0 0 10px rgb(77,146,255) inset;
+    box-shadow: 0 0 10px rgb(77, 146, 255) inset;
 }
 
 .divider {
-    height: 1px;
-    width: 1100px;
-    background-color: #ffffff;
-    opacity: 0.2;
-    margin: 50px 0 0;
+    height: 100px;
+    width: 100%;
+    background-color: #0064FF;
 }
 
 .stage-1 {
@@ -191,13 +220,17 @@
 }
 
 /*Footer*/
+.footer {
+    background-color: #EFF3F2;
+}
+
 .footer-menu {
-    font-family: "Helvetica Neue";
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    font-weight: normal;
-    color: #EFF3F2;
-    background-color: #17253B;
-    border: #17253B;
+    font-weight: bold;
+    color: #3d3d3d;
+    background-color: #EFF3F2;
+    border: #EFF3F2;
 }
 
 .footer-social-icon {

@@ -6,7 +6,7 @@ import {BsDiscord, BsTelegram, BsTwitter} from "react-icons/bs";
 
 function Footer() {
     return (
-        <div>
+        <div className="footer">
             <Row align={"middle"} style={{padding: '50px 0'}}>
                 <Col span={9} offset={3}>
                     <Row justify={"space-around"}>
