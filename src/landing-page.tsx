@@ -24,13 +24,11 @@ function LandingPage() {
             <Navbar/>
 
             <div className="wrapper-0">
-                <Row className="main">
-                    <Col>
-                        <p className="main-eager">EAGER</p>
-                    </Col>
-                    <Col>
-                        <p className="main-eager"> EMU</p>
-                    </Col>
+                <Row>
+                    <p className="main-emu"> EMU</p>
+                </Row>
+                <Row>
+                    <p className="main-eager">EAGER</p>
                 </Row>
             </div>
             <hr className="solid"/>
@@ -114,23 +112,6 @@ function LandingPage() {
                                     <Col span={12}><img width={'100%'} src={nft} alt="nft"/></Col>
                                     <Col span={12}><img width={'100%'} src={nft} alt="nft"/></Col>
                                 </Row>
-
-                                {/*<Row>*/}
-                                {/*    <Col span={12} style={{padding: '0 8px 8px 15px'}}>*/}
-                                {/*        <img width={'100%'} src={nft} alt="nft"/>*/}
-                                {/*    </Col>*/}
-                                {/*    <Col span={12} style={{padding: '0 15px 8px 8px'}}>*/}
-                                {/*        <img width={'100%'} src={nft} alt="nft"/>*/}
-                                {/*    </Col>*/}
-                                {/*</Row>*/}
-                                {/*<Row>*/}
-                                {/*    <Col span={12} style={{padding: '8px 8px 0 15px'}}>*/}
-                                {/*        <img width={'100%'} src={nft} alt="nft"/>*/}
-                                {/*    </Col>*/}
-                                {/*    <Col span={12} style={{padding: '8px 15px 0 8px'}}>*/}
-                                {/*        <img width={'100%'} src={nft} alt="nft"/>*/}
-                                {/*    </Col>*/}
-                                {/*</Row>*/}
                             </Col>
                         </Row>
                     </Col>
@@ -143,12 +124,13 @@ function LandingPage() {
                         <p className="para-title-others">PEAK INTO THE FUTURE</p>
                     </Col>
                 </Row>
+
                 <Row justify={"center"}>
                     <Col span={18}>
                         <Row gutter={[16, 16]}>
-                            <Col span={8}><img className="stage-1" src={nft} alt="nft"/></Col>
-                            <Col span={10}><img className="stage-2" width={'100%'} src={nft} alt="nft"/></Col>
-                            <Col span={6}><img className="stage-3" width={'100%'} src={nft} alt="nft"/></Col>
+                            <Card className="stage-1"><p>01</p></Card>
+                            <Card className="stage-2"><p>01</p></Card>
+                            <Card className="stage-3"><p>01</p></Card>
                         </Row>
                     </Col>
                 </Row>
@@ -176,8 +158,8 @@ function LandingPage() {
 
             <Footer/>
         </div>
-    )
-        ;
+)
+;
 }
 
 export default LandingPage;
