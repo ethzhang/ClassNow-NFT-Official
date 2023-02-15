@@ -1,0 +1,205 @@
+/*Navbar*/
+.navbar {
+    height: 64px;
+    overflow: hidden;
+    position: relative;
+    background: #17253B;
+    padding: 0 60px;
+}
+
+
+.left-menu {
+    float: left;
+    height: 100%;
+    line-height: 65px;
+}
+
+.logo-wrapper {
+    display: inline-block;
+    padding: 0 8px;
+    margin: 0 50px;
+    height: 100%;
+    color: #000000;
+    vertical-align: text-bottom;
+}
+
+.logo-name {
+    font-family: "Helvetica Neue";
+    font-size: 24px;
+    font-weight: bold;
+    color: #EFF3F2;
+}
+
+.logo {
+    margin: 0 15px;
+}
+
+
+.left-menu-item {
+    display: inline-block;
+    padding: 0 8px;
+    height: 100%;
+    vertical-align: text-bottom;
+}
+
+.menu-button {
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    font-weight: normal;
+    color: #EFF3F2;
+    background-color: #17253B;
+    border: #17253B;
+}
+
+
+.right-menu {
+    float: right;
+    height: 100%;
+    line-height: 65px;
+}
+
+.right-menu-item {
+    display: inline-block;
+    padding: 0 8px;
+    height: 100%;
+    vertical-align: text-bottom;
+}
+
+
+.social-link-item {
+    color: #EFF3F2;
+    background-color: #17253B;
+    border: #17253B;
+    height: 100%;
+    margin: 0 10px;
+}
+
+.connect-button {
+    font-family: "Helvetica Neue";
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 50px;
+}
+
+
+/*LandingPage*/
+.app {
+    min-height: 100vh;
+    max-width: 1560px;
+    margin: 0;
+    background-color: #17253B;
+}
+
+.main-pic {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 10/3;
+    background-color: #EFF3F2;
+}
+
+.link {
+    color: #4D92FF;
+    text-shadow: 0 0 5px rgb(77,146,255);
+}
+
+.para-title-collection {
+    font-family: "Helvetica Neue";
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    color: #EFF3F2;
+    margin: 0 0 16px;
+}
+
+.para-title-others {
+    font-family: "Helvetica Neue";
+    font-size: 27px;
+    font-weight: bold;
+    font-style: italic;
+    color: #EFF3F2;
+    margin: 0 0 16px;
+}
+
+.para-content {
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    font-weight: normal;
+    color: #EFF3F2;
+    padding: 0 50px 0 0;
+}
+
+.buy-box {
+    background-color: #EFF3F2;
+    box-shadow: 0 0 10px rgb(77,146,255) inset,0 0 30px rgb(77,146,255);
+    padding: 24px 0 24px 24px;
+}
+
+.buy-title {
+    font-family: "Helvetica Neue";
+    font-size: 28px;
+    font-weight: bold;
+    color: #17253B;
+    margin: 0 0 16px;
+}
+
+.buy-content {
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    font-weight: normal;
+    color: #17253B;
+}
+
+.buy-button {
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #17253B;
+    color: #EFF3F2;
+    box-shadow: 0 0 10px rgb(77,146,255) inset;
+}
+
+.divider {
+    height: 1px;
+    width: 1100px;
+    background-color: #ffffff;
+    opacity: 0.2;
+    margin: 50px 0 0;
+}
+
+.stage-1 {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3/4;
+}
+
+.stage-2 {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+
+.stage-3 {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 32/30;
+}
+
+.stage-4 {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 64/75;
+}
+
+/*Footer*/
+.footer-menu {
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    font-weight: normal;
+    color: #EFF3F2;
+    background-color: #17253B;
+    border: #17253B;
+}
+
+.footer-social-icon {
+    margin: 0 10px;
+}
