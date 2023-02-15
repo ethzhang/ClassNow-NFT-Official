@@ -100,7 +100,7 @@
     background-size: 100%;
     /*width: 100%;*/
     height: auto;
-    aspect-ratio: 1920/828;
+    aspect-ratio: 1920/892;
     /*translate: 0 -50px;*/
 }
 
@@ -195,7 +195,7 @@
 
 .wrapper-2 {
     background-color: #EFF3F2;
-    padding: 100px 0;
+    /*padding: 0 0 100px 0;*/
 }
 
 .buy-box {

@@ -26,7 +26,6 @@ function LandingPage() {
         <div className="app">
             <Navbar/>
 
-            <hr className="solid"/>
             <div className="wrapper-2">
                 <Row justify={"center"} align={"middle"}>
                     <Col span={24}>
