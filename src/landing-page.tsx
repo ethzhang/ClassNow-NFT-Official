@@ -3,7 +3,7 @@ import './landing-page.css';
 import {Button, Card, Col, Row} from "antd";
 import Navbar from "./navbar";
 import Footer from "./footer";
-import nft1 from "./1.png";
+import nft11 from "./11.png";
 import nft2 from "./2.png";
 import nft3 from "./3.png";
 import nft4 from "./4.png";
@@ -114,7 +114,7 @@ function LandingPage() {
                             </Col>
                             <Col span={8}>
                                 <Row gutter={[16, 16]}>
-                                    <Col span={12}><img width={'100%'} src={nft1} alt="nft"/></Col>
+                                    <Col span={12}><img width={'100%'} src={nft11} alt="nft"/></Col>
                                     <Col span={12}><img width={'100%'} src={nft2} alt="nft"/></Col>
                                     <Col span={12}><img width={'100%'} src={nft3} alt="nft"/></Col>
                                     <Col span={12}><img width={'100%'} src={nft4} alt="nft"/></Col>
