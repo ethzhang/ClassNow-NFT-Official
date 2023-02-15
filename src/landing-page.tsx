@@ -97,7 +97,7 @@ function LandingPage() {
             </div>
             <hr className="solid"/>
 
-            <div className="wrapper-74b9ff">
+            <div className="wrapper-a29bfe">
                 <Row justify={"center"}>
                     <Col span={18}>
                         <Row align={"top"}>
@@ -121,19 +121,6 @@ function LandingPage() {
                                 </Row>
                             </Col>
                         </Row>
-                    </Col>
-                </Row>
-            </div>
-            <hr className="solid"/>
-            <div className="wrapper-a29bfe">
-                <Row justify={"center"}>
-                    <Col span={18}>
-                        <p className="para-title-others">PEAK INTO THE FUTURE</p>
-                    </Col>
-                </Row>
-
-                <Row justify={"center"}>
-                    <Col span={18}>
                         <Row gutter={[16, 16]}>
                             <Card className="stage-1"><p>01</p></Card>
                             <Card className="stage-2"><p>01</p></Card>
@@ -143,6 +130,24 @@ function LandingPage() {
                 </Row>
             </div>
             <hr className="solid"/>
+            {/*<div className="wrapper-a29bfe">*/}
+            {/*    <Row justify={"center"}>*/}
+            {/*        <Col span={18}>*/}
+            {/*            <p className="para-title-others">PEAK INTO THE FUTURE</p>*/}
+            {/*        </Col>*/}
+            {/*    </Row>*/}
+
+            {/*    <Row justify={"center"}>*/}
+            {/*        <Col span={18}>*/}
+            {/*            <Row gutter={[16, 16]}>*/}
+            {/*                <Card className="stage-1"><p>01</p></Card>*/}
+            {/*                <Card className="stage-2"><p>01</p></Card>*/}
+            {/*                <Card className="stage-3"><p>01</p></Card>*/}
+            {/*            </Row>*/}
+            {/*        </Col>*/}
+            {/*    </Row>*/}
+            {/*</div>*/}
+            {/*<hr className="solid"/>*/}
             <div className="wrapper-55efc4">
                 <Row justify={"center"}>
                     <Col span={18}>

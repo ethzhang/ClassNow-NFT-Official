@@ -247,7 +247,6 @@
 }
 
 .stage-1 {
-    background-image: url("./f.png");
     width: 29%;
     height: auto;
     aspect-ratio: 3/4;
@@ -258,7 +257,6 @@
 }
 
 .stage-2 {
-    background-image: url("./f.png");
     width: 49%;
     height: auto;
     aspect-ratio: 16/9;
@@ -269,7 +267,6 @@
 }
 
 .stage-3 {
-    background-image: url("./f.png");
     width: 19%;
     height: auto;
     aspect-ratio: 32/30;
