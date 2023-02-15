@@ -3,7 +3,10 @@ import './landing-page.css';
 import {Button, Card, Col, Row} from "antd";
 import Navbar from "./navbar";
 import Footer from "./footer";
-import nft from "./f.png";
+import nft1 from "./1.png";
+import nft2 from "./2.png";
+import nft3 from "./3.png";
+import nft4 from "./4.png";
 import mainPic from "./f.png"
 
 function LandingPage() {
@@ -23,12 +26,37 @@ function LandingPage() {
         <div className="app">
             <Navbar/>
 
+            <hr className="solid"/>
+            <div className="wrapper-2">
+                <Row justify={"center"} align={"middle"}>
+                    <Col span={24}>
+                        <Card className="buy-box">
+                            <Row justify={"center"} align={"middle"}>
+                                <Col span={18}>
+                                    <p className="buy-title">COLLECT THE<br/>FIRST LAUNCH!</p>
+                                </Col>
+                                <Col span={6}>
+                                    <a href="https://veace.xyz/">
+                                        <span className="buy-button">ON VEACE</span>
+                                    </a>
+                                </Col>
+                            </Row>
+                            <Row style={{padding: '0 72px'}} justify={"space-between"}>
+                                <p className="buy-content">Release 5000 NFTs.</p>
+                                <p className="buy-content">On March 1st at 9.00 am.</p>
+                            </Row>
+                        </Card>
+                    </Col>
+                </Row>
+            </div>
+            <hr className="solid"/>
+
             <div className="wrapper-0">
                 <Row>
-                    <p className="main-emu"> EMU</p>
+                    <p className="main-eager">EAGER</p>
                 </Row>
                 <Row>
-                    <p className="main-eager">EAGER</p>
+                    <p className="main-emu"> EMU</p>
                 </Row>
             </div>
             <hr className="solid"/>
@@ -55,10 +83,11 @@ function LandingPage() {
                                     </Row>
                                 </Col>
                                 <Col span={13}>
-                                    <p className="para-content">Eager Emu is a collection of 5000 Eager Emu NFTs. Unique
+                                    <p className="para-content-collection">Eager Emu is a collection of 5000 Eager Emu
+                                        NFTs. Unique
                                         digital assets stored on Vision blockchain. Each emu has its own value.
                                         Authentic art treasure.</p>
-                                    <p className="para-content">
+                                    <p className="para-content-collection">
                                         <a className="link">Learn NFT on ClassNow.</a></p>
                                 </Col>
                             </Row>
@@ -67,36 +96,14 @@ function LandingPage() {
                 </Row>
             </div>
             <hr className="solid"/>
-            <div className="wrapper-2">
-                <Row justify={"center"} align={"middle"}>
-                    <Col span={24}>
-                        <Card className="buy-box">
-                            <Row justify={"center"} align={"middle"}>
-                                <Col span={18}>
-                                    <p className="buy-title">COLLECT THE<br/>FIRST LAUNCH!</p>
-                                </Col>
-                                <Col span={6}>
-                                    <a href="https://veace.xyz/">
-                                        <span className="buy-button">ON VEACE</span>
-                                    </a>
-                                </Col>
-                            </Row>
-                            <Row style={{padding: '0 72px'}} justify={"space-between"}>
-                                <p className="buy-content">Release 5000 NFTs.</p>
-                                <p className="buy-content">On March 1st at 9.00 am.</p>
-                            </Row>
-                        </Card>
-                    </Col>
-                </Row>
-            </div>
-            <hr className="solid"/>
+
             <div className="wrapper-74b9ff">
                 <Row justify={"center"}>
                     <Col span={18}>
                         <Row align={"top"}>
                             <Col span={16}>
                                 <p className="para-title-others">MEET EMU</p>
-                                <p className="para-content">Character design
+                                <p className="para-content-others">Character design
                                     Meet Emu, the endearing mascot of ClassNow!
                                     Emu represents a new and exciting approach to education, one that is dynamic, fun
                                     and
@@ -107,10 +114,10 @@ function LandingPage() {
                             </Col>
                             <Col span={8}>
                                 <Row gutter={[16, 16]}>
-                                    <Col span={12}><img width={'100%'} src={nft} alt="nft"/></Col>
-                                    <Col span={12}><img width={'100%'} src={nft} alt="nft"/></Col>
-                                    <Col span={12}><img width={'100%'} src={nft} alt="nft"/></Col>
-                                    <Col span={12}><img width={'100%'} src={nft} alt="nft"/></Col>
+                                    <Col span={12}><img width={'100%'} src={nft1} alt="nft"/></Col>
+                                    <Col span={12}><img width={'100%'} src={nft2} alt="nft"/></Col>
+                                    <Col span={12}><img width={'100%'} src={nft3} alt="nft"/></Col>
+                                    <Col span={12}><img width={'100%'} src={nft4} alt="nft"/></Col>
                                 </Row>
                             </Col>
                         </Row>
@@ -158,8 +165,8 @@ function LandingPage() {
 
             <Footer/>
         </div>
-)
-;
+    )
+        ;
 }
 
 export default LandingPage;
