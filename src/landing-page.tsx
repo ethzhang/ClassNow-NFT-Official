@@ -28,14 +28,11 @@ function LandingPage() {
             <Navbar/>
 
             <div className="main-wrapper">
-                <Row justify={"start"} align={"middle"}>
-                    <Col style={{margin: '0 64px'}} span={10}>
-                        {/*<Card style={{padding: '64px 0'}}>*/}
-                            <img className="main-nft-pic" width={'100%'} src={nft1} alt="nft"/>
-                        {/*</Card>*/}
+                <Row justify={"center"} align={"middle"}>
+                    <Col style={{margin: '0 32px 0 0'}} span={10}>
+                        <img className="main-nft-pic" width={'100%'} src={nft1} alt="nft"/>
                     </Col>
-                    <Col style={{margin: '0 64px'}}>
-                        {/*<p className="main-name">EAGER EMU</p>*/}
+                    <Col style={{margin: '0 0 0 32px'}}>
                         <p className="main-sentence">COLLECT THE<br/>FIRST LAUNCH!</p>
                         <p className="main-count">5000 / 5000 NFTs</p>
                         <a href="https://veace.xyz/">
