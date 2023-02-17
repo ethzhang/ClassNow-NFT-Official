@@ -10,14 +10,18 @@ function Footer() {
             <Row align={"middle"} style={{padding: '50px 0'}}>
                 <Col span={9} offset={3}>
                     <Row justify={"space-around"}>
-                        <Button className="footer-menu" type="default">Marketplace</Button>
-                        <Button className="footer-menu" type="default">ClassNow</Button>
-                        <Button className="footer-menu" type="default">Story</Button>
+                        <a href="https://veace.xyz/">
+                            <span className="footer-menu">MARKETPLACE</span>
+                        </a>
+                        <a href="https://www.theclassnow.com/index.html">
+                            <span className="footer-menu">ClassNow</span>
+                        </a>
+                        <span className="footer-menu">Story</span>
                     </Row>
                 </Col>
                 <Col span={9}>
                     <Row justify={"center"}>
-                        <p className="footer-menu">Keep up with Eager Emu</p>
+                        <p className="footer-menu">Keep up with Hungry Emu</p>
                     </Row>
                     <Row justify={"center"}>
                         <Button className="social-link-item" type="default" size={"large"}

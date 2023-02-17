@@ -55,13 +55,12 @@ function LandingPage() {
                                     <p className="para-title-others">MEET EMU</p>
                                     <p className="para-content-others">
                                         <strong>It's more than flex! </strong>
-                                        Eager Emu is a collection of 5000 NFTs. Each emu has its own value. Authentic
+                                        Hungry Emu is a collection of 5000 NFTs. Each emu has its own value. Authentic
                                         art treasure.</p>
                                     <p className="para-content-others">
                                         <strong>The mascot and spirit of ClassNow! </strong>
-                                        Eager Emu is always eager to learn. Just like
-                                        {/*&nbsp;*/}
-                                        <a className="link">ClassNow</a> is always on the move,
+                                        Hungry Emu is always eager to learn. Just like&nbsp;
+                                        <a className="link" href="https://www.theclassnow.com/index.html">ClassNow</a> is always on the move,
                                         empowering new adventures in learning and discovery.</p>
                                 </Card>
                             </Col>
