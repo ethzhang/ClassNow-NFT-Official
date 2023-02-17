@@ -217,10 +217,8 @@
 /*3*/
 .roadmap-wrapper {
     background-color: #E1C574;
-    /*background-color: #E4AFD0;*/
     width: 100%;
-    /*height: auto;*/
-    /*aspect-ratio: 1920/828;*/
+    height: auto;
     display: flex;
     justify-items: center;
     align-items: center;
@@ -229,7 +227,6 @@
 .roadmap-card {
     width: 80%;
     height: auto;
-    aspect-ratio: 4/3;
     background-color: #F1E09D;
     border-width: 5px;
     border-color: #181717;
@@ -254,33 +251,24 @@
 
 /*4*/
 .team-wrapper {
-    /*background-color: #E1C574;*/
     background-color: #E4AFD0;
     width: 100%;
     height: auto;
-    aspect-ratio: 1920/828;
     display: flex;
     align-items: center;
 }
 
 .team-card {
+    width: 80%;
+    height: auto;
     background-color: #FFD7EF;
-    /*background-color: #F1E09D;*/
     border-width: 5px;
     border-color: #181717;
     border-radius: 50px;
     padding: 5% 5%;
+    margin: 6% 10%;
 }
 
-/*.wrapper-2 {*/
-/*    background-color: #EFF3F2;*/
-/*    !*padding: 0 0 100px 0;*!*/
-/*}*/
-
-/*.wrapper-74b9ff {*/
-/*    background-color: #FCB6D0;*/
-/*    padding: 100px 0;*/
-/*}*/
 
 /*Footer*/
 .footer {

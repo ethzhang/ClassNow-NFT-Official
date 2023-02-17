@@ -91,8 +91,6 @@ function LandingPage() {
             <hr className="solid"/>
 
             <div className="roadmap-wrapper">
-                {/*<Row>*/}
-                {/*    <Col span={20} offset={2}>*/}
                 <Card className="roadmap-card">
                     <p className="session-title">ROADMAP</p>
                     <Row justify={"start"} align={"middle"}>
@@ -136,23 +134,13 @@ function LandingPage() {
                         </Col>
                     </Row>
                 </Card>
-                {/*    </Col>*/}
-                {/*</Row>*/}
             </div>
             <hr className="solid"/>
 
             <div className="team-wrapper">
-                <Row>
-                    <Col span={20} offset={2}>
-                        <Card className="team-card">
-                            <p className="session-title">THE TEAM</p>
-                            <p className="meet-content">
-                                <strong>It's more than flex! </strong>
-                                Hungry Emu is a collection of 5000 NFTs. Each emu has its own value. Authentic
-                                art treasure.</p>
-                        </Card>
-                    </Col>
-                </Row>
+                <Card className="team-card">
+                    <p className="session-title">THE TEAM</p>
+                </Card>
             </div>
             <hr className="solid-bottom"/>
 
