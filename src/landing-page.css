@@ -1,6 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/montserrat');
 @import url('https://fonts.cdnfonts.com/css/ikka-rounded');
-/*<link href="" rel="stylesheet">*/
+@import url('https://fonts.cdnfonts.com/css/anoushka');
 
 /*Navbar*/
 .navbar {
@@ -188,7 +188,8 @@
 }
 
 .para-title-others {
-    font-family: 'Ikka Rounded', sans-serif;
+    /*font-family: 'Ikka Rounded', sans-serif;*/
+    font-family: 'Anoushka', sans-serif;
     font-size: 48px;
     font-weight: bold;
     font-style: italic;
