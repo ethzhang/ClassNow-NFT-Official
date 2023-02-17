@@ -51,7 +51,7 @@ function LandingPage() {
                     <Col span={20}>
                         <Row align={"middle"}>
                             <Col span={12}>
-                                <Card className="card">
+                                <Card className="meet-card">
                                     <p className="para-title-others">MEET EMU</p>
                                     <p className="para-content-others">
                                         <strong>It's more than flex! </strong>
@@ -60,7 +60,9 @@ function LandingPage() {
                                     <p className="para-content-others">
                                         <strong>The mascot and spirit of ClassNow! </strong>
                                         Hungry Emu is always eager to learn. Just like&nbsp;
-                                        <a className="link" href="https://www.theclassnow.com/index.html">ClassNow</a> is always on the move,
+                                        <a className="link"
+                                           href="https://www.theclassnow.com/index.html">ClassNow</a> is always on the
+                                        move,
                                         empowering new adventures in learning and discovery.</p>
                                 </Card>
                             </Col>
@@ -73,57 +75,63 @@ function LandingPage() {
                                 </Row>
                             </Col>
                         </Row>
-                        {/*<Row gutter={[16, 16]}>*/}
-                        {/*    <Card className="stage-1"><p>01</p></Card>*/}
-                        {/*    <Card className="stage-2"><p>01</p></Card>*/}
-                        {/*    <Card className="stage-3"><p>01</p></Card>*/}
-                        {/*</Row>*/}
                     </Col>
                 </Row>
             </div>
             <hr className="solid"/>
 
-            <div className="wrapper-55efc4">
+            <div className="roadmap-wrapper">
                 <Row justify={"center"}>
-                    <Col span={18}>
-                        <p className="para-title-others">ROADMAP</p>
+                    <Col span={20}>
+                        <Row align={"middle"}>
+                            <Col span={12}>
+                                <Card className="roadmap-card">
+                                    <p className="para-title-others">ROADMAP</p>
+                                    <p className="para-content-others">
+                                        <strong>It's more than flex! </strong>
+                                        Hungry Emu is a collection of 5000 NFTs. Each emu has its own value. Authentic
+                                        art treasure.</p>
+                                    <p className="para-content-others">
+                                        <strong>The mascot and spirit of ClassNow! </strong>
+                                        Hungry Emu is always eager to learn. Just like&nbsp;
+                                        <a className="link"
+                                           href="https://www.theclassnow.com/index.html">ClassNow</a> is always on the
+                                        move,
+                                        empowering new adventures in learning and discovery.</p>
+                                </Card>
+                            </Col>
+                        </Row>
                     </Col>
                 </Row>
-                {/*<Carousel interval="4000" type="card" height="200px">*/}
-                {/*    {*/}
-                {/*        [1,2,3,4].map((item, index) => {*/}
-                {/*            return (*/}
-                {/*                <Carousel.Item key={index}>*/}
-                {/*                    <h3>{item}</h3>*/}
-                {/*                </Carousel.Item>*/}
-                {/*            )*/}
-                {/*        })*/}
-                {/*    }*/}
-                {/*</Carousel>*/}
-                {/*<Carousel slides={slides} autoplay={true} interval={1000}/>*/}
             </div>
+            <hr className="solid"/>
 
-            <div className="wrapper-55efc4">
+            <div className="team-wrapper">
                 <Row justify={"center"}>
-                    <Col span={18}>
-                        <p className="para-title-others">THE TEAM</p>
+                    <Col span={20}>
+                        <Row align={"middle"}>
+                            <Col span={12}>
+                                <Card className="team-card">
+                                    <p className="para-title-others">THE TEAM</p>
+                                    <p className="para-content-others">
+                                        <strong>It's more than flex! </strong>
+                                        Hungry Emu is a collection of 5000 NFTs. Each emu has its own value. Authentic
+                                        art treasure.</p>
+                                    <p className="para-content-others">
+                                        <strong>The mascot and spirit of ClassNow! </strong>
+                                        Hungry Emu is always eager to learn. Just like&nbsp;
+                                        <a className="link"
+                                           href="https://www.theclassnow.com/index.html">ClassNow</a> is always on the
+                                        move,
+                                        empowering new adventures in learning and discovery.</p>
+                                </Card>
+                            </Col>
+                        </Row>
                     </Col>
                 </Row>
-                {/*<Carousel interval="4000" type="card" height="200px">*/}
-                {/*    {*/}
-                {/*        [1,2,3,4].map((item, index) => {*/}
-                {/*            return (*/}
-                {/*                <Carousel.Item key={index}>*/}
-                {/*                    <h3>{item}</h3>*/}
-                {/*                </Carousel.Item>*/}
-                {/*            )*/}
-                {/*        })*/}
-                {/*    }*/}
-                {/*</Carousel>*/}
-                {/*<Carousel slides={slides} autoplay={true} interval={1000}/>*/}
             </div>
-
             <hr className="solid-bottom"/>
+
             <Footer/>
         </div>
     )
