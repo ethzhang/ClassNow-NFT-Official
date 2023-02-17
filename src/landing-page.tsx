@@ -29,11 +29,13 @@ function LandingPage() {
             <Navbar/>
 
             <div className="main-wrapper">
-                <Row justify={"center"} align={"middle"}>
-                    <Col style={{margin: '0 32px 0 0'}} span={10}>
-                        <img className="main-nft-pic" width={'100%'} src={nft1} alt="nft"/>
+                <Row justify={"start"} align={"middle"}>
+                    <Col style={{padding:'0', margin: '0'}} span={10}>
+                        <Row justify={"start"} align={"bottom"}>
+                            <img className="main-nft-pic" width={'100%'} src={nft1} alt="nft"/>
+                        </Row>
                     </Col>
-                    <Col style={{margin: '0 0 0 32px'}}>
+                    <Col style={{margin: '0 0 0 200px'}}>
                         <SocialIcon className="main-logo" url="https://twitter.com/_classnow_" fgColor="#FDDD4E"
                                     bgColor="#363A59"/>
                         <p className="main-sentence">COLLECT THE<br/>FIRST LAUNCH!</p>
