@@ -9,6 +9,7 @@ import nft2 from "./2.png";
 import nft3 from "./3.png";
 import nft4 from "./4.png";
 import mainPic from "./f.png"
+import {SocialIcon} from 'react-social-icons';
 
 function LandingPage() {
     // const slides = [
@@ -33,32 +34,38 @@ function LandingPage() {
                         <img className="main-nft-pic" width={'100%'} src={nft1} alt="nft"/>
                     </Col>
                     <Col style={{margin: '0 0 0 32px'}}>
+                        <SocialIcon className="main-logo" url="https://twitter.com/_classnow_" fgColor="#FDDD4E"
+                                    bgColor="#363A59"/>
                         <p className="main-sentence">COLLECT THE<br/>FIRST LAUNCH!</p>
                         <p className="main-count">5000 / 5000 NFTs</p>
                         <a href="https://veace.xyz/">
-                            <span className="main-buy-button">BUY ON VEACE</span>
+                            <Button className="main-buy-button">BUY NOW</Button>
                         </a>
                     </Col>
                 </Row>
             </div>
             <hr className="solid"/>
 
-            <div className="wrapper-a29bfe">
+            <div className="meet-wrapper">
                 <Row justify={"center"}>
-                    <Col span={18}>
-                        <Row align={"top"}>
-                            <Col span={16}>
-                                <p className="para-title-others">MEET EMU</p>
-                                <p className="para-content-others">Character design
-                                    Meet Emu, the endearing mascot of ClassNow!
-                                    Emu represents a new and exciting approach to education, one that is dynamic, fun
-                                    and
-                                    always eager to learn. Just like Emu, ClassNow is always on the move, constantly
-                                    exploring new possibilities and opportunities for growth.
-                                    <a className="link">ClassNow</a>
-                                </p>
+                    <Col span={20}>
+                        <Row align={"middle"}>
+                            <Col span={12}>
+                                <Card className="card">
+                                    <p className="para-title-others">MEET EMU</p>
+                                    <p className="para-content-others">
+                                        <strong>It's more than flex! </strong>
+                                        Eager Emu is a collection of 5000 NFTs. Each emu has its own value. Authentic
+                                        art treasure.</p>
+                                    <p className="para-content-others">
+                                        <strong>The mascot and spirit of ClassNow! </strong>
+                                        Eager Emu is always eager to learn. Just like
+                                        {/*&nbsp;*/}
+                                        <a className="link">ClassNow</a> is always on the move,
+                                        empowering new adventures in learning and discovery.</p>
+                                </Card>
                             </Col>
-                            <Col span={8}>
+                            <Col style={{padding: '64px'}} span={12}>
                                 <Row gutter={[16, 16]}>
                                     <Col span={12}><img width={'100%'} src={nft11} alt="nft"/></Col>
                                     <Col span={12}><img width={'100%'} src={nft2} alt="nft"/></Col>
@@ -67,15 +74,16 @@ function LandingPage() {
                                 </Row>
                             </Col>
                         </Row>
-                        <Row gutter={[16, 16]}>
-                            <Card className="stage-1"><p>01</p></Card>
-                            <Card className="stage-2"><p>01</p></Card>
-                            <Card className="stage-3"><p>01</p></Card>
-                        </Row>
+                        {/*<Row gutter={[16, 16]}>*/}
+                        {/*    <Card className="stage-1"><p>01</p></Card>*/}
+                        {/*    <Card className="stage-2"><p>01</p></Card>*/}
+                        {/*    <Card className="stage-3"><p>01</p></Card>*/}
+                        {/*</Row>*/}
                     </Col>
                 </Row>
             </div>
             <hr className="solid"/>
+
             <div className="wrapper-55efc4">
                 <Row justify={"center"}>
                     <Col span={18}>

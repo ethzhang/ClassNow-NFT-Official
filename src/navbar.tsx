@@ -34,7 +34,7 @@ function Navbar() {
                             icon={<BsTelegram/>}/>
                 </div>
                 <div className="right-menu-item">
-                    <Button className="connect-button" size="large"> CONNECT TO VEACE</Button>
+                    <Button className="connect-button" size="large">CONNECT</Button>
                 </div>
             </div>
         </div>
