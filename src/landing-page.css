@@ -1,6 +1,17 @@
 @import url('https://fonts.cdnfonts.com/css/montserrat');
 @import url('https://fonts.cdnfonts.com/css/ikka-rounded');
 @import url('https://fonts.cdnfonts.com/css/anoushka');
+@import url('https://fonts.cdnfonts.com/css/donitha');
+/*font-family: 'Donitha', sans-serif;*/
+@import url('https://fonts.cdnfonts.com/css/delight-coffee-2');
+/*font-family: 'Delight Coffee', sans-serif;*/
+@import url('https://fonts.cdnfonts.com/css/ningst-mode');
+/*font-family: 'Ningst Mode', sans-serif;*/
+@import url('https://fonts.cdnfonts.com/css/de-peown');
+/*font-family: 'De Peown', sans-serif;*/
+@import url('https://fonts.cdnfonts.com/css/babystuff');
+/*font-family: 'BabyStuff', sans-serif;*/
+
 
 /*Navbar*/
 .navbar {
@@ -26,7 +37,7 @@
 }
 
 .logo-name {
-    font-family: 'Ikka Rounded', sans-serif;
+    font-family: 'Donitha', sans-serif;
     font-size: 24px;
     font-weight: bold;
     color: #3d3d3d;
@@ -44,7 +55,7 @@
 }
 
 .menu-button {
-    font-family: 'Ikka Rounded', sans-serif;
+    font-family: 'Donitha', sans-serif;
     font-size: 16px;
     font-weight: bold;
     color: #3d3d3d;
@@ -74,7 +85,7 @@
 }
 
 .connect-button {
-    font-family: 'Ikka Rounded', sans-serif;
+    font-family: 'Donitha', sans-serif;
     font-size: 18px;
     font-weight: bold;
     color: #EFF3F2;
@@ -85,6 +96,12 @@
 /*LandingPage*/
 .solid {
     border-top: 10px solid #EFF3F2;
+    margin: 0;
+    padding: 0;
+}
+
+.solid-bottom {
+    border-top: 5px solid black;
     margin: 0;
     padding: 0;
 }
@@ -100,7 +117,7 @@
 .main-wrapper {
     display: flex;
     align-items: center;
-    margin: 0 64px;
+    /*margin: 0 64px;*/
     background-color: #C62E42;
     width: 100%;
     height: auto;
@@ -125,7 +142,7 @@
 }
 
 .main-sentence {
-    font-family: 'Ikka Rounded', sans-serif;
+    font-family: 'Donitha', sans-serif;
     font-size: 36px;
     font-weight: bold;
     letter-spacing: 4px;
@@ -134,7 +151,7 @@
 }
 
 .main-count {
-    font-family: 'Ikka Rounded', sans-serif;
+    font-family: 'Donitha', sans-serif;
     font-size: 36px;
     font-weight: bold;
     letter-spacing: 3px;
@@ -142,7 +159,7 @@
 }
 
 .main-buy-button {
-    font-family: 'Ikka Rounded', sans-serif;
+    font-family: 'Donitha', sans-serif;
     font-size: 32px;
     font-weight: bold;
     letter-spacing: 3px;
@@ -154,16 +171,6 @@
     border-color: #EFF3F2;
 }
 
-/*.main-buy {*/
-/*    font-family: 'Ikka Rounded', sans-serif;*/
-/*    font-size: 48px;*/
-/*    font-weight: bold;*/
-/*    letter-spacing: 3px;*/
-/*    color: #FDDD4E;*/
-/*    background-color: #363A59;*/
-/*}*/
-
-
 /*2*/
 .meet-wrapper {
     background-color: #F9C10B;
@@ -172,8 +179,6 @@
     aspect-ratio: 1920/828;
     display: flex;
     align-items: center;
-    /*margin: 0 64px;*/
-    /*padding: 100px 0;*/
 }
 
 .card {
@@ -198,180 +203,25 @@
 }
 
 .para-content-others {
-    font-family: 'Ikka Rounded', sans-serif;
+    font-family: 'Donitha', sans-serif;
     font-size: 22px;
     font-weight: normal;
     color: black;
-}
-
-
-.wrapper-0 {
-    /*background-color: #C62E42;*/
-    background-image: url("./bg.png");
-    background-size: 100%;
-    /*width: 100%;*/
-    height: auto;
-    aspect-ratio: 1920/892;
-    /*translate: 0 -50px;*/
-}
-
-.main {
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*margin: 0 64px;*/
-}
-
-.main-eager {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 150px;
-    font-weight: bold;
-    font-style: italic;
-    color: white;
-    text-shadow: 30px 20px black,
-    -5px 0 black, 0 5px black, 5px 0 black, 0 -5px black;
-    text-align: left;
-    margin: 0;
-    padding: 0 5%;
-}
-
-.main-emu {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 150px;
-    font-weight: bold;
-    font-style: italic;
-    color: white;
-    text-shadow: 30px 20px black,
-    -5px 0 black, 0 5px black, 5px 0 black, 0 -5px black;
-    text-align: right;
-    margin: 0;
-    padding: 0 1%;
-}
-
-.divider {
-    height: 10px;
-    width: 10px;
-    background-color: black;
 }
 
 .link {
     color: #4D92FF;
 }
 
-.wrapper-1 {
-    /*background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);*/
-    background-color: #D2E9E1;
-    padding: 100px 0;
-}
-
-.para-title-collection {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 64px;
-    font-weight: bold;
-    font-style: italic;
-    color: white;
-    text-shadow: 0 10px black,
-    -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-    margin: 0;
-}
-
-.para-content-collection {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
-    font-weight: bold;
-    color: black;
-}
 
 .wrapper-2 {
     background-color: #EFF3F2;
     /*padding: 0 0 100px 0;*/
 }
 
-.buy-box {
-    border-width: 5px 0;
-    border-color: black;
-    /*border-color: #C62E42;*/
-    border-radius: 0px;
-    padding: 50px 10%;
-}
-
-.buy-title {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 64px;
-    font-weight: bold;
-    color: white;
-    text-shadow: 0 10px black,
-    -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-    margin: 0 0 16px;
-}
-
-.buy-content {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 32px;
-    font-weight: normal;
-    color: #17253B;
-}
-
-.buy-button {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 48px;
-    font-weight: bold;
-    background-color: black;
-    color: #EFF3F2;
-    /*box-shadow: 0 0 10px rgb(77, 146, 255) inset;*/
-}
-
 .wrapper-74b9ff {
     background-color: #FCB6D0;
     padding: 100px 0;
-}
-
-.wrapper-55efc4 {
-    padding: 100px 0;
-}
-
-.stage-1 {
-    width: 29%;
-    height: auto;
-    aspect-ratio: 3/4;
-    border-width: 5px;
-    border-color: black;
-    border-radius: 0px;
-    /*margin: 0 30px 30px 0;*/
-}
-
-.stage-2 {
-    width: 49%;
-    height: auto;
-    aspect-ratio: 16/9;
-    border-width: 5px 0;
-    border-color: black;
-    border-radius: 0px;
-    /*margin: 0 30px 30px 30px;*/
-}
-
-.stage-3 {
-    width: 19%;
-    height: auto;
-    aspect-ratio: 32/30;
-    border-width: 5px;
-    border-color: black;
-    border-radius: 0px;
-    /*margin: 0 0 30px 30px;*/
-}
-
-.stage-4 {
-    /*width: 20%;*/
-    /*height: auto;*/
-    /*aspect-ratio: 64/75;*/
-    /*border-width: 5px;*/
-    /*border-radius: 0px;*/
-    /*border-color: black;*/
-}
-
-.solid-bottom {
-    border-top: 5px solid black;
-    margin: 0;
-    padding: 0;
 }
 
 /*Footer*/
