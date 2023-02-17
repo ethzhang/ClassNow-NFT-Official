@@ -24,14 +24,15 @@ function Footer() {
                         <p className="footer-menu">Keep up with Hungry Emu</p>
                     </Row>
                     <Row justify={"center"}>
-                        <Button className="social-link-item" type="default" size={"large"}
-                                href="https://twitter.com/_classnow_"
-                                icon={<BsTwitter/>}/>
-                        <Button className="social-link-item" type="default" size={"large"}
-                                href="https://discord.gg/pGhp3BjQ"
-                                icon={<BsDiscord/>}/>
-                        <Button className="social-link-item" type="default" size={"large"} href="https://telegram.org/"
-                                icon={<BsTelegram/>}/>
+                        <a href="https://twitter.com/_classnow_">
+                            <BsTwitter className="social-link-item"/>
+                        </a>
+                        <a href="https://discord.gg/pGhp3BjQ">
+                            <BsDiscord className="social-link-item"/>
+                        </a>
+                        <a href="https://telegram.org/">
+                            <BsTelegram className="social-link-item"/>
+                        </a>
                     </Row>
                 </Col>
             </Row>
