@@ -87,6 +87,26 @@ function LandingPage() {
             <div className="wrapper-55efc4">
                 <Row justify={"center"}>
                     <Col span={18}>
+                        <p className="para-title-others">ROADMAP</p>
+                    </Col>
+                </Row>
+                {/*<Carousel interval="4000" type="card" height="200px">*/}
+                {/*    {*/}
+                {/*        [1,2,3,4].map((item, index) => {*/}
+                {/*            return (*/}
+                {/*                <Carousel.Item key={index}>*/}
+                {/*                    <h3>{item}</h3>*/}
+                {/*                </Carousel.Item>*/}
+                {/*            )*/}
+                {/*        })*/}
+                {/*    }*/}
+                {/*</Carousel>*/}
+                {/*<Carousel slides={slides} autoplay={true} interval={1000}/>*/}
+            </div>
+
+            <div className="wrapper-55efc4">
+                <Row justify={"center"}>
+                    <Col span={18}>
                         <p className="para-title-others">THE TEAM</p>
                     </Col>
                 </Row>
