@@ -8,6 +8,11 @@ import nft11 from "./11.png";
 import nft2 from "./2.png";
 import nft3 from "./3.png";
 import nft4 from "./4.png";
+import roadmap1 from "./01.png";
+import roadmap2 from "./02.png";
+import roadmap3 from "./03.png";
+import roadmap4 from "./04.png";
+import roadmap5 from "./05.png";
 import mainPic from "./f.png"
 import {SocialIcon} from 'react-social-icons';
 
@@ -58,7 +63,7 @@ function LandingPage() {
                         <Row align={"middle"}>
                             <Col span={12}>
                                 <Card className="meet-card">
-                                    <p className="meet-title">MEET EMU</p>
+                                    <p className="session-title">MEET EMU</p>
                                     <p className="meet-content">
                                         <strong>It's more than flex! &nbsp;&nbsp;</strong>
                                         Hungry Emu is a collection of 5000 unique NFTs, each of which is a authentic art
@@ -86,33 +91,66 @@ function LandingPage() {
             <hr className="solid"/>
 
             <div className="roadmap-wrapper">
-                <Row justify={"center"} align={"middle"}>
-                    <Col span={20}>
-                        <Card className="roadmap-card">
-                            <p className="para-title-others">ROADMAP</p>
-                            <p className="para-content-others">
-                                <strong>It's more than flex! </strong>
-                                A collection of 5000 unique NFTs. Authentic art treasure.</p>
-                        </Card>
-                    </Col>
-                </Row>
+                {/*<Row>*/}
+                {/*    <Col span={20} offset={2}>*/}
+                <Card className="roadmap-card">
+                    <p className="session-title">ROADMAP</p>
+                    <Row justify={"start"} align={"middle"}>
+                        <Col span={10}>
+                            <p className="roadmap-content-left">Launch Eager Emu NFT Collection</p>
+                        </Col>
+                        <Col span={4}>
+                            <img className="roadmap-image" src={roadmap1} alt="nft"/>
+                        </Col>
+                    </Row>
+                    <Row justify={"start"} align={"middle"}>
+                        <Col span={4} offset={10}>
+                            <img className="roadmap-image" src={roadmap2} alt="nft"/>
+                        </Col>
+                        <Col span={10}>
+                            <p className="roadmap-content-left">Launch Eager Emu NFT Collection</p>
+                        </Col>
+                    </Row>
+                    <Row justify={"start"} align={"middle"}>
+                        <Col span={10}>
+                            <p className="roadmap-content-left">Launch Eager Emu NFT Collection</p>
+                        </Col>
+                        <Col span={4}>
+                            <img className="roadmap-image" src={roadmap3} alt="nft"/>
+                        </Col>
+                    </Row>
+                    <Row justify={"start"} align={"middle"}>
+                        <Col span={4} offset={10}>
+                            <img className="roadmap-image" src={roadmap4} alt="nft"/>
+                        </Col>
+                        <Col span={10}>
+                            <p className="roadmap-content-left">Launch Eager Emu NFT Collection</p>
+                        </Col>
+                    </Row>
+                    <Row justify={"start"} align={"middle"}>
+                        <Col span={10}>
+                            <p className="roadmap-content-left">Launch Eager Emu NFT Collection</p>
+                        </Col>
+                        <Col span={4}>
+                            <img className="roadmap-image" src={roadmap5} alt="nft"/>
+                        </Col>
+                    </Row>
+                </Card>
+                {/*    </Col>*/}
+                {/*</Row>*/}
             </div>
             <hr className="solid"/>
 
             <div className="team-wrapper">
-                <Row justify={"center"}>
-                    <Col span={20}>
-                        <Row align={"middle"}>
-                            <Col span={12}>
-                                <Card className="team-card">
-                                    <p className="para-title-others">THE TEAM</p>
-                                    <p className="para-content-others">
-                                        <strong>It's more than flex! </strong>
-                                        Hungry Emu is a collection of 5000 NFTs. Each emu has its own value. Authentic
-                                        art treasure.</p>
-                                </Card>
-                            </Col>
-                        </Row>
+                <Row>
+                    <Col span={20} offset={2}>
+                        <Card className="team-card">
+                            <p className="session-title">THE TEAM</p>
+                            <p className="meet-content">
+                                <strong>It's more than flex! </strong>
+                                Hungry Emu is a collection of 5000 NFTs. Each emu has its own value. Authentic
+                                art treasure.</p>
+                        </Card>
                     </Col>
                 </Row>
             </div>
