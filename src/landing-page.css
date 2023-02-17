@@ -269,6 +269,13 @@
     margin: 6% 10%;
 }
 
+.team-avatar {
+    width: 100%;
+    border-width: 5px;
+    border-color: #181717;
+    border-radius: 50%;
+    border-style: solid;
+}
 
 /*Footer*/
 .footer {

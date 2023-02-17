@@ -4,10 +4,11 @@ import {Button, Card, Col, Row} from "antd";
 import Navbar from "./navbar";
 import Footer from "./footer";
 import nft1 from "./1.png";
-import nft11 from "./11.png";
 import nft2 from "./2.png";
 import nft3 from "./3.png";
 import nft4 from "./4.png";
+import nft11 from "./11.png";
+import nft12 from "./12.png";
 import roadmap1 from "./01.png";
 import roadmap2 from "./02.png";
 import roadmap3 from "./03.png";
@@ -140,6 +141,16 @@ function LandingPage() {
             <div className="team-wrapper">
                 <Card className="team-card">
                     <p className="session-title">THE TEAM</p>
+                    <Row gutter={[64, 128]}>
+                        <Col span={6}><img className="team-avatar" src={nft1} alt="nft"/></Col>
+                        <Col span={6}><img className="team-avatar" src={nft2} alt="nft"/></Col>
+                        <Col span={6}><img className="team-avatar" src={nft3} alt="nft"/></Col>
+                        <Col span={6}><img className="team-avatar" src={nft4} alt="nft"/></Col>
+                        <Col span={6}><img className="team-avatar" src={nft11} alt="nft"/></Col>
+                        <Col span={6}><img className="team-avatar" src={nft12} alt="nft"/></Col>
+                        <Col span={6}><img className="team-avatar" src={nft2} alt="nft"/></Col>
+                        <Col span={6}><img className="team-avatar" src={nft1} alt="nft"/></Col>
+                    </Row>
                 </Card>
             </div>
             <hr className="solid-bottom"/>
