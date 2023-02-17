@@ -130,7 +130,20 @@
     font-family: 'Delight Coffee', sans-serif;
     font-size: 36px;
     font-weight: bold;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
+    color: #F9C10B;
+    margin: 0 0 16px;
+}
+
+.main-sentence-underlined {
+    font-family: 'Delight Coffee', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    /*text-decoration: underline;*/
+    /*border-bottom: 1px solid #F9C10B;*/
+    border-bottom: 15px double #F9C10B;
+    /*cursor: pointer;*/
     color: #F9C10B;
     margin: 0 0 16px;
 }
@@ -139,7 +152,7 @@
     font-family: 'Delight Coffee', sans-serif;
     font-size: 36px;
     font-weight: bold;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     color: #EFF3F2;
 }
 
@@ -147,7 +160,7 @@
     font-family: 'Delight Coffee', sans-serif;
     font-size: 32px;
     font-weight: bold;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     width: 60%;
     height: auto;
     aspect-ratio: 10/2;
