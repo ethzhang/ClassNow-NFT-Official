@@ -58,18 +58,17 @@ function LandingPage() {
                         <Row align={"middle"}>
                             <Col span={12}>
                                 <Card className="meet-card">
-                                    <p className="para-title-others">MEET EMU</p>
-                                    <p className="para-content-others">
-                                        <strong>It's more than flex! </strong>
-                                        Hungry Emu is a collection of 5000 NFTs. Each emu has its own value. Authentic
-                                        art treasure.</p>
-                                    <p className="para-content-others">
-                                        <strong>The mascot and spirit of ClassNow! </strong>
+                                    <p className="meet-title">MEET EMU</p>
+                                    <p className="meet-content">
+                                        <strong>It's more than flex! &nbsp;&nbsp;</strong>
+                                        Hungry Emu is a collection of 5000 unique NFTs, each of which is a authentic art
+                                        treasure.</p>
+                                    <p className="meet-content">
+                                        <strong>The mascot and spirit of ClassNow!<br/></strong>
                                         Hungry Emu is always eager to learn. Just like&nbsp;
                                         <a className="link"
                                            href="https://www.theclassnow.com/index.html">ClassNow</a> is always on the
-                                        move,
-                                        empowering new adventures in learning and discovery.</p>
+                                        move, empowering educators and businesses to share the knowledge.</p>
                                 </Card>
                             </Col>
                             <Col style={{padding: '64px'}} span={12}>
@@ -87,19 +86,14 @@ function LandingPage() {
             <hr className="solid"/>
 
             <div className="roadmap-wrapper">
-                <Row justify={"center"}>
+                <Row justify={"center"} align={"middle"}>
                     <Col span={20}>
-                        <Row align={"middle"}>
-                            <Col span={12}>
-                                <Card className="roadmap-card">
-                                    <p className="para-title-others">ROADMAP</p>
-                                    <p className="para-content-others">
-                                        <strong>It's more than flex! </strong>
-                                        Hungry Emu is a collection of 5000 NFTs. Each emu has its own value. Authentic
-                                        art treasure.</p>
-                                </Card>
-                            </Col>
-                        </Row>
+                        <Card className="roadmap-card">
+                            <p className="para-title-others">ROADMAP</p>
+                            <p className="para-content-others">
+                                <strong>It's more than flex! </strong>
+                                A collection of 5000 unique NFTs. Authentic art treasure.</p>
+                        </Card>
                     </Col>
                 </Row>
             </div>

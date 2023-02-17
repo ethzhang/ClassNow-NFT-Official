@@ -175,7 +175,7 @@
     background-color: #F9C10B;
     width: 100%;
     height: auto;
-    aspect-ratio: 1920/828;
+    aspect-ratio: 1920/892;
     display: flex;
     align-items: center;
 }
@@ -188,23 +188,24 @@
     border-width: 5px;
     border-color: #181717;
     border-radius: 50px;
-    padding: 5% 5%;
+    padding: 6% 6%;
 }
 
-.para-title-others {
+.meet-title {
     font-family: 'Anoushka', sans-serif;
     font-size: 48px;
     font-weight: bold;
     font-style: italic;
     color: #181717;
-    margin: 0 0 16px;
+    margin: 0 0 40px;
 }
 
-.para-content-others {
+.meet-content {
     font-family: 'Delight Coffee', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: normal;
     color: #181717;
+    margin: 20px 0 0;
 }
 
 .link {
@@ -213,7 +214,8 @@
 
 /*3*/
 .roadmap-wrapper {
-    background-color: #E4AFD0;
+    background-color: #E1C574;
+    /*background-color: #E4AFD0;*/
     width: 100%;
     height: auto;
     aspect-ratio: 1920/828;
@@ -222,10 +224,8 @@
 }
 
 .roadmap-card {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 4/3;
-    background-color: #FFD7EF;
+    background-color: #F1E09D;
+    /*background-color: #FFD7EF;*/
     border-width: 5px;
     border-color: #181717;
     border-radius: 50px;
@@ -234,7 +234,8 @@
 
 /*4*/
 .team-wrapper {
-    background-color: #E1C574;
+    /*background-color: #E1C574;*/
+    background-color: #E4AFD0;
     width: 100%;
     height: auto;
     aspect-ratio: 1920/828;
@@ -243,10 +244,8 @@
 }
 
 .team-card {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 4/3;
-    background-color: #F1E09D;
+    background-color: #FFD7EF;
+    /*background-color: #F1E09D;*/
     border-width: 5px;
     border-color: #181717;
     border-radius: 50px;
