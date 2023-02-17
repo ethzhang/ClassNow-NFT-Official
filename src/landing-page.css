@@ -2,10 +2,7 @@
 @import url('https://fonts.cdnfonts.com/css/ikka-rounded');
 @import url('https://fonts.cdnfonts.com/css/anoushka');
 @import url('https://fonts.cdnfonts.com/css/delight-coffee-2');
-@import url('https://fonts.cdnfonts.com/css/ningst-mode');
-
 @import url('https://fonts.cdnfonts.com/css/de-peown');
-/*font-family: 'De Peown', sans-serif;*/
 @import url('https://fonts.cdnfonts.com/css/babystuff');
 /*font-family: 'BabyStuff', sans-serif;*/
 
@@ -34,7 +31,7 @@
 }
 
 .logo-name {
-    font-family: 'Ningst Mode', sans-serif;
+    font-family: 'De Peown', sans-serif;
     font-size: 24px;
     font-weight: bold;
     color: #3d3d3d;
@@ -52,7 +49,7 @@
 }
 
 .menu-button {
-    font-family: 'Ningst Mode', sans-serif;
+    font-family: 'De Peown', sans-serif;
     font-size: 16px;
     font-weight: bold;
     color: #3d3d3d;
@@ -82,7 +79,7 @@
 }
 
 .connect-button {
-    font-family: 'Ningst Mode', sans-serif;
+    font-family: 'De Peown', sans-serif;
     font-size: 18px;
     font-weight: bold;
     color: #EFF3F2;
@@ -138,7 +135,7 @@
 }
 
 .main-sentence {
-    font-family: 'Ningst Mode', sans-serif;
+    font-family: 'De Peown', sans-serif;
     font-size: 36px;
     font-weight: bold;
     letter-spacing: 4px;
@@ -147,7 +144,7 @@
 }
 
 .main-count {
-    font-family: 'Ningst Mode', sans-serif;
+    font-family: 'De Peown', sans-serif;
     font-size: 36px;
     font-weight: bold;
     letter-spacing: 3px;
@@ -155,7 +152,7 @@
 }
 
 .main-buy-button {
-    font-family: 'Ningst Mode', sans-serif;
+    font-family: 'De Peown', sans-serif;
     font-size: 32px;
     font-weight: bold;
     letter-spacing: 3px;
@@ -199,7 +196,7 @@
 }
 
 .para-content-others {
-    font-family: 'Ningst Mode', sans-serif;
+    font-family: 'De Peown', sans-serif;
     font-size: 22px;
     font-weight: normal;
     color: black;
@@ -229,7 +226,7 @@
 }
 
 .footer-menu {
-    font-family: 'Ningst Mode', sans-serif;
+    font-family: 'De Peown', sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: #3d3d3d;
