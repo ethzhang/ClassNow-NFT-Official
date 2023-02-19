@@ -21,7 +21,7 @@ function Footer() {
                 </Col>
                 <Col span={9}>
                     <Row justify={"center"}>
-                        <p className="footer-menu">Keep up with Hungry Emu</p>
+                        <p className="footer-menu">Keep up with Eager Emu</p>
                     </Row>
                     <Row justify={"center"}>
                         <a href="https://twitter.com/_classnow_">

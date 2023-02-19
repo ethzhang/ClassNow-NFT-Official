@@ -11,7 +11,7 @@ function Navbar() {
                 <div className="left-menu">
                     <div className="logo-wrapper">
                         <Row align={"middle"}>
-                            <p className="logo-name" style={{margin: '0'}}>Hungry</p>
+                            <p className="logo-name" style={{margin: '0'}}>Eager</p>
                             <SocialIcon className="logo" fgColor="#ffffff" bgColor="#05090e"/>
                             <p className="logo-name" style={{margin: '0'}}>Emu</p>
                         </Row>
