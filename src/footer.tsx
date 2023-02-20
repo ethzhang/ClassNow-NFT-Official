@@ -8,12 +8,12 @@ function Footer() {
     return (
         <div className="footer">
             <Row justify={"center"} align={"middle"} style={{padding: '50px 0'}}>
-                <Col span={9}>
+                <Col span={6}>
                     <Row justify={"space-around"} align={"middle"}>
                         <a href="https://veace.xyz/">
                             <p className="footer-menu">Marketplace</p>
                         </a>
-                        <p className="footer-menu">Story</p>
+                        {/*<p className="footer-menu">Story</p>*/}
                         <Row align={"middle"}>
                             <a href="https://www.theclassnow.com/index.html">
                                 <p className="footer-menu">ClassNow</p>
@@ -24,7 +24,7 @@ function Footer() {
                         </Row>
                     </Row>
                 </Col>
-                <Col span={5} offset={3}>
+                <Col span={6} offset={3}>
                     <Row justify={"end"} align={"middle"}>
                         <p className="footer-sentence">Chat with Eager Emu</p>
                         <a href="https://discord.gg/pGhp3BjQ">
