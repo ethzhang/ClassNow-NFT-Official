@@ -36,11 +36,7 @@ function Navbar() {
                         <a href="https://discord.gg/pGhp3BjQ">
                             <BsDiscord className="social-link-item"/>
                         </a>
-                        <a href="https://telegram.org/">
-                            <BsTelegram className="social-link-item"/>
-                        </a>
                     </div>
-
                     <div className="right-menu-item">
                         <Button className="connect-button" size="large" href="https://veace.xyz/">CONNECT</Button>
                     </div>
