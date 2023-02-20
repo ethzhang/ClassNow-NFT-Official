@@ -131,8 +131,14 @@ function LandingPage() {
                     <p className="session-title">THE TEAM</p>
                     <Row gutter={[32, 0]} justify={"center"} style={{margin: '0 0 32px'}}>
                         <Col span={6}>
-                            <Row justify={"center"} align={"middle"}>
+                            <Row className="avatar-row" justify={"center"} align={"middle"}>
                                 <img className="team-avatar" src={nft1} alt="nft"/>
+                                <div className="profile-mask">
+                                    <p className="profile-text profile-padding-top">Serial entrepreneur since 2014</p>
+                                    <p className="profile-text">Passionate, creative and community-driven</p>
+                                    <p className="profile-text">Ex-telecommunications engineer</p>
+                                    <p className="profile-text">Founder of Jia HE Production</p>
+                                </div>
                             </Row>
                             <Row justify={"center"} align={"middle"}>
                                 <p className="team-name">Jia HE</p>
@@ -142,8 +148,13 @@ function LandingPage() {
                             </Row>
                         </Col>
                         <Col span={6}>
-                            <Row justify={"center"} align={"middle"}>
+                            <Row className="avatar-row" justify={"center"} align={"middle"}>
                                 <img className="team-avatar" src={nft2} alt="nft"/>
+                                <div className="profile-mask">
+                                    <p className="profile-text profile-padding-top">Director & Tech Lead in Tencent
+                                        Technology</p>
+                                    <p className="profile-text">Product Specialist in Alibaba DingTalk</p>
+                                </div>
                             </Row>
                             <Row justify={"center"} align={"middle"}>
                                 <p className="team-name">Ethan Zhang</p>
@@ -153,8 +164,12 @@ function LandingPage() {
                             </Row>
                         </Col>
                         <Col span={6}>
-                            <Row justify={"center"} align={"middle"}>
+                            <Row className="avatar-row" justify={"center"} align={"middle"}>
                                 <img className="team-avatar" src={nft3} alt="nft"/>
+                                <div className="profile-mask">
+                                    <p className="profile-text profile-padding-top">Master of Finance, UNSW</p>
+                                    <p className="profile-text">Social Media Influencer</p>
+                                </div>
                             </Row>
                             <Row justify={"center"} align={"middle"}>
                                 <p className="team-name">Celine Zhong</p>
@@ -167,8 +182,15 @@ function LandingPage() {
 
                     <Row gutter={[32, 0]} justify={"center"}>
                         <Col span={6}>
-                            <Row justify={"center"} align={"middle"}>
+                            <Row className="avatar-row" justify={"center"} align={"middle"}>
                                 <img className="team-avatar" src={nft4} alt="nft"/>
+                                <div className="profile-mask">
+                                    <p className="profile-text profile-padding-top">Fellow of IET UK</p>
+                                    <p className="profile-text">Conjoint Professor of UNSW, UTS & Macquarie
+                                        University</p>
+                                    <p className="profile-text">Senior Member of IEEE</p>
+                                    <p className="profile-text">PhD Supervisor</p>
+                                </div>
                             </Row>
                             <Row justify={"center"} align={"middle"}>
                                 <p className="team-name">Prof. Shiping Chen</p>
@@ -178,8 +200,13 @@ function LandingPage() {
                             </Row>
                         </Col>
                         <Col span={6}>
-                            <Row justify={"center"} align={"middle"}>
+                            <Row className="avatar-row" justify={"center"} align={"middle"}>
                                 <img className="team-avatar" src={nft11} alt="nft"/>
+                                <div className="profile-mask">
+                                    <p className="profile-text profile-padding-top">MGSM, Macquarie University</p>
+                                    <p className="profile-text">Operated more than 10 coffee shops</p>
+                                    <p className="profile-text">Founded Didi Catering platform</p>
+                                </div>
                             </Row>
                             <Row justify={"center"} align={"middle"}>
                                 <p className="team-name">Sophie Sun</p>
@@ -189,8 +216,12 @@ function LandingPage() {
                             </Row>
                         </Col>
                         <Col span={6}>
-                            <Row justify={"center"} align={"middle"}>
+                            <Row className="avatar-row" justify={"center"} align={"middle"}>
                                 <img className="team-avatar" src={nft12} alt="nft"/>
+                                <div className="profile-mask">
+                                    <p className="profile-text profile-padding-top">Master of Professional Engineering,
+                                        USYD</p>
+                                </div>
                             </Row>
                             <Row justify={"center"} align={"middle"}>
                                 <p className="team-name">Deon Zhang</p>
@@ -200,8 +231,12 @@ function LandingPage() {
                             </Row>
                         </Col>
                         <Col span={6}>
-                            <Row justify={"center"} align={"middle"}>
+                            <Row className="avatar-row" justify={"center"} align={"middle"}>
                                 <img className="team-avatar" src={nft2} alt="nft"/>
+                                <div className="profile-mask">
+                                    <p className="profile-text profile-padding-top">Master of Professional Engineering,
+                                        USYD</p>
+                                </div>
                             </Row>
                             <Row justify={"center"} align={"middle"}>
                                 <p className="team-name">Anna Tang</p>
