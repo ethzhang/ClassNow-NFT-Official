@@ -10,6 +10,7 @@ import nft3 from "./3.png";
 import nft4 from "./4.png";
 import nft11 from "./11.png";
 import nft12 from "./12.png";
+import nft31 from "./31.png";
 import roadmap1 from "./01.png";
 import roadmap2 from "./02.png";
 import roadmap3 from "./03.png";
@@ -19,44 +20,12 @@ import mainPic from "./f.png"
 import {SocialIcon} from 'react-social-icons';
 
 function LandingPage() {
-    // const {ethereum} = window;
-    //
-    // const handleConnect = async () => {
-    //     if (ethereum) {
-    //         ethereum.request({method: 'eth_requestAccounts'})
-    //             .then((res: any[]) => {
-    //                 handleAccountChange(res[0]);
-    //                 getAccountBalance(res[0]);
-    //             })
-    //     } else {
-    //         message.warning("Install Metamask please");
-    //     }
-    // }
-    //
-    // const handleAccountChange = async (newAccount: any) => {
-    //     this.setState({defaultAccount: newAccount});
-    //     getAccountBalance(newAccount.toString());
-    // }
-    //
-    // const getAccountBalance = (account: any) => {
-    //     ethereum.request({method: 'eth_getBalance', params: [account, 'latest']})
-    //         .then((balance: any) => {
-    //             this.setState({userBalance: ethers.formatEther(balance)});
-    //             sessionStorage.setItem('balance', ethers.formatEther(balance));
-    //         })
-    // }
-
     return (
         <div className="app">
             <Navbar/>
 
             <div className="main-wrapper">
                 <Row justify={"start"} align={"middle"}>
-                    <Col style={{padding: '0', margin: '0'}} span={10}>
-                        <Row justify={"start"} align={"bottom"}>
-                            <img className="main-nft-pic" width={'100%'} src={nft1} alt="nft"/>
-                        </Row>
-                    </Col>
                     <Col style={{margin: '0 0 0 200px'}}>
                         <SocialIcon className="main-logo" url="https://twitter.com/_classnow_" fgColor="#FDDD4E"
                                     bgColor="#363A59"/>
@@ -69,6 +38,11 @@ function LandingPage() {
                         <a href="https://veace.xyz/">
                             <Button className="main-buy-button">BUY NOW</Button>
                         </a>
+                    </Col>
+                    <Col style={{margin: '0 0 0 150px'}} span={10}>
+                        <Row justify={"end"} align={"bottom"}>
+                            <img className="main-nft-pic" width={'100%'} src={nft31} alt="nft"/>
+                        </Row>
                     </Col>
                 </Row>
             </div>
@@ -105,6 +79,31 @@ function LandingPage() {
                                     <Col span={12}><img width={'100%'} src={nft3} alt="nft"/></Col>
                                     <Col span={12}><img width={'100%'} src={nft4} alt="nft"/></Col>
                                 </Row>
+                            </Col>
+                        </Row>
+                    </Col>
+                </Row>
+            </div>
+            <hr className="solid"/>
+
+            <div className="story-wrapper">
+                <Row justify={"center"}>
+                    <Col span={20}>
+                        <Row align={"middle"}>
+                            <Col style={{padding: '64px'}} span={10}>
+                                <Row gutter={[16, 16]}>
+                                    <Col span={24}><img width={'100%'} src={nft2} alt="nft"/></Col>
+                                </Row>
+                            </Col>
+                            <Col span={14}>
+                                <Card className="story-card">
+                                    <p className="session-title">STORY</p>
+                                    <p className="story-content">
+                                        There is one lonely emu on the emu planet, one with shiny fur, but lonely. <i>Why
+                                        am I the only one here all along? When can I find someone else?</i> That emu
+                                        mumbled everyday and wondered in the big world expecting to meet someone. Help
+                                        this poor emu by bringing new emus to that planet!</p>
+                                </Card>
                             </Col>
                         </Row>
                     </Col>

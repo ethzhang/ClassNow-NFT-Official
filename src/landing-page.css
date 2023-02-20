@@ -119,6 +119,7 @@
     width: 100%;
     height: auto;
     display: inline-block;
+    text-align: right;
 }
 
 
@@ -213,9 +214,39 @@
     color: #4D92FF;
 }
 
+/*Story*/
+.story-wrapper {
+    background-color: #75ff9b;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1920/892;
+    display: flex;
+    align-items: center;
+}
+
+.story-card {
+    width: 100%;
+    height: auto;
+    /*aspect-ratio: 4/3;*/
+    background-color: #d6ffef;
+    border-width: 5px;
+    border-color: #181717;
+    border-radius: 50px;
+    padding: 6% 6%;
+}
+
+.story-content {
+    font-family: 'Delight Coffee', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #181717;
+    margin: 20px 0 0;
+}
+
 /*Roadmap*/
 .roadmap-wrapper {
-    background-color: #E1C574;
+    background-color: #969AC2;
     width: 100%;
     height: auto;
     display: flex;
@@ -226,7 +257,7 @@
 .roadmap-card {
     width: 80%;
     height: auto;
-    background-color: #F1E09D;
+    background-color: #C9D6EA;
     border-width: 5px;
     border-color: #181717;
     border-radius: 50px;
