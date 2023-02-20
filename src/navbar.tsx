@@ -24,6 +24,7 @@ function Navbar() {
                         <a href="https://veace.xyz/">
                             <span className="middle-menu-item">MARKETPLACE</span>
                         </a>
+                        {/*<span className="middle-menu-item">STORY</span>*/}
                     </div>
                 </div>
 
