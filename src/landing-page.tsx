@@ -141,15 +141,87 @@ function LandingPage() {
             <div className="team-wrapper">
                 <Card className="team-card">
                     <p className="session-title">THE TEAM</p>
-                    <Row gutter={[64, 128]}>
-                        <Col span={6}><img className="team-avatar" src={nft1} alt="nft"/></Col>
-                        <Col span={6}><img className="team-avatar" src={nft2} alt="nft"/></Col>
-                        <Col span={6}><img className="team-avatar" src={nft3} alt="nft"/></Col>
-                        <Col span={6}><img className="team-avatar" src={nft4} alt="nft"/></Col>
-                        <Col span={6}><img className="team-avatar" src={nft11} alt="nft"/></Col>
-                        <Col span={6}><img className="team-avatar" src={nft12} alt="nft"/></Col>
-                        <Col span={6}><img className="team-avatar" src={nft2} alt="nft"/></Col>
-                        <Col span={6}><img className="team-avatar" src={nft1} alt="nft"/></Col>
+                    <Row gutter={[32, 0]} justify={"center"} style={{margin:'0 0 32px'}}>
+                        <Col span={6}>
+                            <Row justify={"center"} align={"middle"}>
+                                <img className="team-avatar" src={nft1} alt="nft"/>
+                            </Row>
+                            <Row justify={"center"} align={"middle"}>
+                                <p className="team-name">Jia HE</p>
+                            </Row>
+                            <Row justify={"center"} align={"middle"}>
+                                <p className="team-title">Founder & CEO</p>
+                            </Row>
+                        </Col>
+                        <Col span={6}>
+                            <Row justify={"center"} align={"middle"}>
+                                <img className="team-avatar" src={nft2} alt="nft"/>
+                            </Row>
+                            <Row justify={"center"} align={"middle"}>
+                                <p className="team-name">Ethan Zhang</p>
+                            </Row>
+                            <Row justify={"center"} align={"middle"}>
+                                <p className="team-title">Co-founder & CTO</p>
+                            </Row>
+                        </Col>
+                        <Col span={6}>
+                            <Row justify={"center"} align={"middle"}>
+                                <img className="team-avatar" src={nft3} alt="nft"/>
+                            </Row>
+                            <Row justify={"center"} align={"middle"}>
+                                <p className="team-name">Celine Zhong</p>
+                            </Row>
+                            <Row justify={"center"} align={"middle"}>
+                                <p className="team-title">CMO</p>
+                            </Row>
+                        </Col>
+                    </Row>
+
+                    <Row gutter={[32, 0]} justify={"center"}>
+                        <Col span={6}>
+                            <Row justify={"center"} align={"middle"}>
+                                <img className="team-avatar" src={nft4} alt="nft"/>
+                            </Row>
+                            <Row justify={"center"} align={"middle"}>
+                                <p className="team-name">Prof. Shiping Chen</p>
+                            </Row>
+                            <Row justify={"center"} align={"middle"}>
+                                <p className="team-title">Web3 Advisor</p>
+                            </Row>
+                        </Col>
+                        <Col span={6}>
+                            <Row justify={"center"} align={"middle"}>
+                                <img className="team-avatar" src={nft11} alt="nft"/>
+                            </Row>
+                            <Row justify={"center"} align={"middle"}>
+                                <p className="team-name">Sophie Sun</p>
+                            </Row>
+                            <Row justify={"center"} align={"middle"}>
+                                <p className="team-title">Business Advisor</p>
+                            </Row>
+                        </Col>
+                        <Col span={6}>
+                            <Row justify={"center"} align={"middle"}>
+                                <img className="team-avatar" src={nft12} alt="nft"/>
+                            </Row>
+                            <Row justify={"center"} align={"middle"}>
+                                <p className="team-name">Deon Zhang</p>
+                            </Row>
+                            <Row justify={"center"} align={"middle"}>
+                                <p className="team-title">Software Engineer</p>
+                            </Row>
+                        </Col>
+                        <Col span={6}>
+                            <Row justify={"center"} align={"middle"}>
+                                <img className="team-avatar" src={nft2} alt="nft"/>
+                            </Row>
+                            <Row justify={"center"} align={"middle"}>
+                                <p className="team-name">Anna Tang</p>
+                            </Row>
+                            <Row justify={"center"} align={"middle"}>
+                                <p className="team-title">Software Engineer</p>
+                            </Row>
+                        </Col>
                     </Row>
                 </Card>
             </div>
