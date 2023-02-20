@@ -252,8 +252,7 @@ function LandingPage() {
                             <Row className="avatar-row" justify={"center"} align={"middle"}>
                                 <img className="team-avatar" src={nft12} alt="nft"/>
                                 <div className="profile-mask">
-                                    <p className="profile-text profile-padding-top">Master of Professional Engineering,
-                                        USYD</p>
+                                    <p className="profile-text profile-padding-top">Full Stack Developer</p>
                                 </div>
                             </Row>
                             <Row justify={"center"} align={"middle"}>
@@ -269,6 +268,8 @@ function LandingPage() {
                                 <div className="profile-mask">
                                     <p className="profile-text profile-padding-top">Master of Professional Engineering,
                                         USYD</p>
+                                    <p className="profile-text profile-padding-top">Front End Web Developer</p>
+                                    <p className="profile-text profile-padding-top">UX/UI Designer</p>
                                 </div>
                             </Row>
                             <Row justify={"center"} align={"middle"}>
