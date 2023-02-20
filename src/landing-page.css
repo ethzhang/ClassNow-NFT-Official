@@ -121,6 +121,7 @@
     display: inline-block;
 }
 
+
 .main-logo {
     /*color: #FDDD4E;*/
     /*background-color: #363A59;*/
@@ -291,6 +292,23 @@
     letter-spacing: 1px;
     color: #181717;
     margin: 0;
+}
+
+.profile-mask {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    opacity: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    pointer-events: none;
+}
+
+.team-avatar:hover .profile-mask {
+    opacity: 1;
 }
 
 /*.col-center {*/

@@ -1,6 +1,6 @@
 import React from 'react';
 import './landing-page.css';
-import {Button, Card, Col, Row} from "antd";
+import {Button, Card, Col, Row, Image} from "antd";
 import Navbar from "./navbar";
 import Footer from "./footer";
 import nft1 from "./1.png";
@@ -18,18 +18,6 @@ import mainPic from "./f.png"
 import {SocialIcon} from 'react-social-icons';
 
 function LandingPage() {
-    // const slides = [
-    //     'Wishing you health, wealth, and happiness in the New Year ahead.',
-    //     'I hope all your dreams come true in 2021 — onwards and upwards!',
-    //     'Wave goodbye to the old and embrace the new with hope, dreams, and ambition. Wishing you a Happy New Year full of happiness!',
-    //     'May the 12 months of the New Year be full of new achievements for you. May the days be filled with eternal happiness for you and your family!',
-    //     'Don’t forget the past, learn from it and go out strong for your dreams and future. My best wishes are with you.',
-    //     'Wishing for a better year with new opportunities and beautiful moments. Let’s have a great year ahead.',
-    //     'Years will come and go, but my love for you will always be the same. It will never stop to grow as long as there is a tomorrow.',
-    //     'When I think of you, my heart overflows with joy and pleasure. I have fallen more in love with you every year. This new year will not be an exception.',
-    //     'We are blessed to have each other, I could not be any more thankful. May this year bring us success and good health.'
-    // ]
-
     return (
         <div className="app">
             <Navbar/>
@@ -141,7 +129,7 @@ function LandingPage() {
             <div className="team-wrapper">
                 <Card className="team-card">
                     <p className="session-title">THE TEAM</p>
-                    <Row gutter={[32, 0]} justify={"center"} style={{margin:'0 0 32px'}}>
+                    <Row gutter={[32, 0]} justify={"center"} style={{margin: '0 0 32px'}}>
                         <Col span={6}>
                             <Row justify={"center"} align={"middle"}>
                                 <img className="team-avatar" src={nft1} alt="nft"/>
