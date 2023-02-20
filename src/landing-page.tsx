@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useState} from 'react';
+// import {ethers} from "ethers";
 import './landing-page.css';
 import {Button, Card, Col, Row, Image} from "antd";
 import Navbar from "./navbar";
@@ -18,6 +19,33 @@ import mainPic from "./f.png"
 import {SocialIcon} from 'react-social-icons';
 
 function LandingPage() {
+    // const {ethereum} = window;
+    //
+    // const handleConnect = async () => {
+    //     if (ethereum) {
+    //         ethereum.request({method: 'eth_requestAccounts'})
+    //             .then((res: any[]) => {
+    //                 handleAccountChange(res[0]);
+    //                 getAccountBalance(res[0]);
+    //             })
+    //     } else {
+    //         message.warning("Install Metamask please");
+    //     }
+    // }
+    //
+    // const handleAccountChange = async (newAccount: any) => {
+    //     this.setState({defaultAccount: newAccount});
+    //     getAccountBalance(newAccount.toString());
+    // }
+    //
+    // const getAccountBalance = (account: any) => {
+    //     ethereum.request({method: 'eth_getBalance', params: [account, 'latest']})
+    //         .then((balance: any) => {
+    //             this.setState({userBalance: ethers.formatEther(balance)});
+    //             sessionStorage.setItem('balance', ethers.formatEther(balance));
+    //         })
+    // }
+
     return (
         <div className="app">
             <Navbar/>
@@ -54,7 +82,7 @@ function LandingPage() {
                                 <Card className="meet-card">
                                     <p className="session-title">MEET EMU</p>
                                     <p className="meet-content">
-                                        <strong>It's more than flex! &nbsp;&nbsp;</strong>
+                                        <strong>More than flex! &nbsp;&nbsp;</strong>
                                         Eager Emu is a collection of 5000 unique NFTs, each of which is a authentic art
                                         treasure.</p>
                                     <p className="meet-content">
@@ -63,6 +91,11 @@ function LandingPage() {
                                         <a className="link"
                                            href="https://www.theclassnow.com/index.html">ClassNow</a> is always on the
                                         move, empowering educators and businesses to share the knowledge.</p>
+                                    <p className="meet-content">
+                                        <strong>About utility!</strong>&nbsp;
+                                        Holders are claiming their perks and have the previledge to enjoy the upcoming
+                                        premire ClassNow features.
+                                    </p>
                                 </Card>
                             </Col>
                             <Col style={{padding: '64px'}} span={12}>
