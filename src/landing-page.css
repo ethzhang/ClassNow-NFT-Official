@@ -98,7 +98,7 @@
 
 .app {
     min-height: 100vh;
-    max-width: 1560px;
+    /* max-width: 1560px; */
     margin: 0;
     background-color: #EFF3F2;
 }
