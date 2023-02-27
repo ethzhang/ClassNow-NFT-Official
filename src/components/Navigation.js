@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/landing-page.css';
+import '../styles/Navigation.css';
 import {Button, Row} from "antd";
 import {SocialIcon} from "react-social-icons";
 import {BsDiscord, BsTwitter} from "react-icons/bs";

@@ -2,8 +2,7 @@ import React from 'react'
 import { Row, Col, Button } from 'antd';
 import { SocialIcon } from 'react-social-icons';
 import nft31 from "../../assets/31.png";
-import '../../styles/landing-page.css';
-
+import '../../styles/LandingPage.css';
 
 const Main = () => {
   return (
