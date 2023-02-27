@@ -4,7 +4,7 @@ import {Button, Row} from "antd";
 import {SocialIcon} from "react-social-icons";
 import {BsDiscord, BsTwitter} from "react-icons/bs";
 
-const Navbar = () => {
+const Navigation = () => {
     return (
         <div className="navbar">
             <Row justify="space-between" align={"middle"}>
@@ -46,4 +46,4 @@ const Navbar = () => {
     );
 }
 
-export default Navbar;
+export default Navigation;
