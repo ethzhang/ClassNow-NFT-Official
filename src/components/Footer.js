@@ -1,10 +1,10 @@
 import React from 'react';
-import './landing-page.css';
-import {Button, Col, Row} from "antd";
-import {SocialIcon} from "react-social-icons";
-import {BsDiscord, BsLinkedin, BsTelegram, BsTwitter} from "react-icons/bs";
+import '../styles/landing-page.css';
+import {Col, Row} from "antd";
+// import {SocialIcon} from "react-social-icons";
+import {BsDiscord, BsLinkedin, BsTwitter} from "react-icons/bs";
 
-function Footer() {
+const Footer = () => {
     return (
         <div className="footer">
             <Row justify={"center"} align={"middle"} style={{padding: '50px 0'}}>

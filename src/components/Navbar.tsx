@@ -1,10 +1,10 @@
 import React from 'react';
-import './landing-page.css';
+import '../styles/landing-page.css';
 import {Button, Row} from "antd";
 import {SocialIcon} from "react-social-icons";
-import {BsDiscord, BsTelegram, BsTwitter} from "react-icons/bs";
+import {BsDiscord, BsTwitter} from "react-icons/bs";
 
-function Navbar() {
+const Navbar = () => {
     return (
         <div className="navbar">
             <Row justify="space-between" align={"middle"}>
