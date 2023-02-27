@@ -1,46 +1,23 @@
-# Getting Started with Create React App
+# ClassNow EagerEmu NFT
+Welcome to the ClassNow EagerEmu NFT, where you can own a piece of ClassNow and celebrate your achievements in learning! Our NFT series features the lovable and endearing mascot of ClassNow, Emu, who represents the spirit of our online educational marketplace.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What is ClassNow?
+ClassNow is an online educational marketplace that empowers educators and businesses to share their knowledge and skills with the world. We offer a seamless and accessible platform for anyone to learn, teach, and grow. With our platform, you can stream live courses or access pre-recorded content, and easily enrol and pay in all currencies from anywhere in the world.
 
-## Available Scripts
+## What is EagerEmu?
+EagerEmu is the ClassNow NFT series featuring our beloved mascot, Emu. Each EagerEmu NFT represents a unique piece of ClassNow's history and represents your achievements in learning. Our NFTs are designed with high-quality art and intricate details, making them a perfect addition to any NFT collection.
 
-In the project directory, you can run:
+## How to purchase EagerEmu NFTs?
+The public sale for EagerEmu NFTs starts in March 2023. To purchase an EagerEmu NFT, visit our official website and follow the instructions to complete your purchase. We accept payments in all currencies and offer a seamless and secure transaction process.
 
-### `npm start`
+## What are the benefits of owning an EagerEmu NFT?
+Owning an EagerEmu NFT comes with several benefits. As a proud owner of an EagerEmu NFT, you will have a piece of ClassNow's history and be part of our community of lifelong learners. Additionally, we will offer exclusive rewards and benefits to EagerEmu NFT holders, including access to special courses, events, and discounts on ClassNow products and services.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Conclusion
+We're excited to offer the ClassNow EagerEmu NFT series and invite you to join us on this journey of discovery and growth. Whether you're a student, educator, or business, EagerEmu represents the passion and excitement that comes with the ClassNow learning experience. So don't miss out on the opportunity to own a piece of ClassNow's history and celebrate your achievements in learning with EagerEmu NFTs!
 
-### `npm test`
+## Join the ClassNow Community
+Join us on this journey of discovery and growth, and become part of a community of lifelong learners. Follow us on Twitter, Telegram and Discord to stay up-to-date with the latest news and updates on ClassNow EagerEmu NFT.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you have any questions or concerns about ClassNow NFT, please reach out to our support team at [support@theclassnow.com](mailto:support@theclassnow.com).
