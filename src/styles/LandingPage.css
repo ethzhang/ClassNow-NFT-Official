@@ -18,9 +18,9 @@
     background-color: #C62E42;
     width: 100%;
     height: auto;
-    /*aspect-ratio: 1920/828;*/
-    /*margin: 0;*/
-    /*padding: 0;*/
+    aspect-ratio: 1920/828;
+    margin: 0;
+    padding: 0;
 }
 
 .main-nft-pic {
