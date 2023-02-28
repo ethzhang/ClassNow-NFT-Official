@@ -12,16 +12,16 @@ import Team from './components/sections/Team';
 function App() {
   return (
      <>
-      <div className="app">
-        <Navigation />
-        <Main />
-        <Meet />
-        <Story />
-        <Roadmap />
-        <Team />
-        <Footer />
-      </div>
-     
+         <div className="container">
+             <div className="app">
+                 <Navigation />
+                 <Main />
+                 <Meet />
+                 <Story />
+                 <Roadmap />
+                 <Team />
+                 <Footer />
+             </div></div>
      </>
   );
 }

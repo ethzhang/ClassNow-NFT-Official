@@ -1,36 +1,26 @@
 @import url('https://fonts.cdnfonts.com/css/anoushka');
 @import url('https://fonts.cdnfonts.com/css/delight-coffee-2');
 
-/*LandingPage*/
-.solid {
-    border-top: 10px solid #EFF3F2;
-    margin: 0;
-    padding: 0;
-}
-
-.solid-bottom {
-    border-top: 5px solid #181717;
-    margin: 0;
-    padding: 0;
+.container {
+    background-color: #EFF3F2;
 }
 
 .app {
-    min-height: 100vh;
-    /* max-width: 1560px; */
-    margin: 0;
-    background-color: #EFF3F2;
+    max-width: 1560px;
+    margin: 0 auto;
 }
 
 /*Main*/
 .main-wrapper {
     display: flex;
-    /*align-items: center;*/
+    justify-items: center;
+    align-items: center;
     background-color: #C62E42;
     width: 100%;
     height: auto;
-    aspect-ratio: 1920/828;
-    margin: 0;
-    padding: 0;
+    /*aspect-ratio: 1920/828;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
 }
 
 .main-nft-pic {
@@ -90,12 +80,13 @@
 
 /*Meet*/
 .meet-wrapper {
+    display: flex;
+    justify-items: center;
+    align-items: center;
     background-color: #F9C10B;
     width: 100%;
     height: auto;
-    aspect-ratio: 1920/892;
-    display: flex;
-    align-items: center;
+    /*aspect-ratio: 1920/892;*/
 }
 
 .meet-card {
@@ -134,12 +125,13 @@
 
 /*Story*/
 .story-wrapper {
+    display: flex;
+    justify-items: center;
+    align-items: center;
     background-color: #75ff9b;
     width: 100%;
     height: auto;
-    aspect-ratio: 1920/892;
-    display: flex;
-    align-items: center;
+    /*aspect-ratio: 1920/892;*/
 }
 
 .story-card {
@@ -164,12 +156,12 @@
 
 /*Roadmap*/
 .roadmap-wrapper {
-    background-color: #969AC2;
-    width: 100%;
-    height: auto;
     display: flex;
     justify-items: center;
     align-items: center;
+    background-color: #969AC2;
+    width: 100%;
+    height: auto;
 }
 
 .roadmap-card {
@@ -199,11 +191,12 @@
 
 /*Team*/
 .team-wrapper {
+    display: flex;
+    justify-items: center;
+    align-items: center;
     background-color: #E4AFD0;
     width: 100%;
     height: auto;
-    display: flex;
-    align-items: center;
 }
 
 .team-card {
