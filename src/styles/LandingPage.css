@@ -5,10 +5,39 @@
     background-color: #EFF3F2;
 }
 
-.app {
-    min-width: 576px;
-    max-width: 1200px;
-    margin: 0 auto;
+@media screen and (min-width: 1600px) {
+    .app {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+    .app {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .app {
+        max-width: 992px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .app {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .app {
+        max-width: 576px;
+        margin: 0 auto;
+    }
 }
 
 /*Main*/
@@ -31,7 +60,9 @@
 }
 
 @media screen and (max-width: 1450px) {
-    .margin-32 {margin: 32px;}
+    .margin-32 {
+        margin: 32px;
+    }
 }
 
 .main-sentence-1 {
@@ -119,6 +150,22 @@
 .link {
     color: #4D92FF;
 }
+
+.meet-nft {
+    padding: 0 64px;
+}
+
+/*@media screen and (max-width: 1200px) {*/
+/*    .meet-nft {*/
+/*        padding: 0 0 0 16px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (min-width: 1200px) and (max-width: 1600px) {*/
+/*    .meet-nft {*/
+/*        padding: 0 0 0 64px;*/
+/*    }*/
+/*}*/
 
 /*Story*/
 .story-wrapper {
