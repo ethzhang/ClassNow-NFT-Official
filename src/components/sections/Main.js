@@ -14,12 +14,13 @@ const Main = () => {
                      lg={{span: 20}}
                      xl={{span: 20}}>
                     <Row justify={"center"} align={"middle"}>
-                        <Col xs={{span: 18}}
-                             sm={{span: 18}}
-                             md={{span: 16}}
+                        <Col xs={{span: 20}}
+                             sm={{span: 20}}
+                             md={{span: 20}}
                              lg={{span: 12}}
                              xl={{span: 12}}>
-                                <SocialIcon className="margin-20" fgColor="#FDDD4E" bgColor="#363A59"/>
+                            <div className="margin-32">
+                                <SocialIcon fgColor="#FDDD4E" bgColor="#363A59"/>
                                 <p className="main-sentence-1">COLLECT THE</p>
                                 <Row align={"middle"}>
                                     <p className="main-sentence-underlined">FIRST LAUNCH !</p>
@@ -29,10 +30,11 @@ const Main = () => {
                                 <a href="https://veace.xyz/">
                                     <Button className="main-buy-button">BUY NOW</Button>
                                 </a>
+                            </div>
                         </Col>
                         <Col xs={{span: 18}}
                              sm={{span: 18}}
-                             md={{span: 16}}
+                             md={{span: 18}}
                              lg={{span: 12}}
                              xl={{span: 12}}>
                             <Row justify={"end"} align={"bottom"}>

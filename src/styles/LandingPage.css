@@ -7,7 +7,7 @@
 
 .app {
     min-width: 576px;
-    max-width: 1600px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -19,10 +19,8 @@
     background-color: #C62E42;
     width: 100%;
     height: auto;
-    /*aspect-ratio: 1920/778;*/
     margin: 0;
     padding: 0;
-    /*padding: 50px 0 0 0;*/
 }
 
 .main-nft-pic {
@@ -33,7 +31,7 @@
 }
 
 @media screen and (max-width: 1450px) {
-    .margin-20 {margin-top: 32px;}
+    .margin-32 {margin: 32px;}
 }
 
 .main-sentence-1 {
@@ -44,15 +42,6 @@
     color: #F9C10B;
     margin: 64px 0 16px 0;
 }
-
-/*.main-sentence-2 {*/
-/*    font-family: 'Delight Coffee', sans-serif;*/
-/*    font-size: 36px;*/
-/*    font-weight: bold;*/
-/*    letter-spacing: 5px;*/
-/*    color: #F9C10B;*/
-/*    margin: 0 0 16px 0;*/
-/*}*/
 
 .main-sentence-underlined {
     font-family: 'Delight Coffee', sans-serif;
@@ -95,18 +84,17 @@
     width: 100%;
     height: auto;
     padding: 50px 0;
-    /*aspect-ratio: 1920/892;*/
 }
 
 .meet-card {
     width: 100%;
     height: auto;
-    aspect-ratio: 4/3;
     background-color: #f8dda9;
     border-width: 5px;
     border-color: #181717;
     border-radius: 50px;
-    padding: 6% 6%;
+    margin: 0;
+    padding: 32px 64px;
 }
 
 .session-title {
