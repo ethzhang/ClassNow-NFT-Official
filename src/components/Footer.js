@@ -8,7 +8,8 @@ const Footer = () => {
     return (
         <div className="footer">
             <Row justify={"center"} align={"middle"} style={{padding: '50px 0'}}>
-                <Col span={6}>
+                <Col md={{span: 24}}
+                     lg={{span: 6}}>
                     <Row justify={"space-around"} align={"middle"}>
                         <a href="https://veace.xyz/">
                             <p className="footer-menu">Marketplace</p>
@@ -24,7 +25,8 @@ const Footer = () => {
                         </Row>
                     </Row>
                 </Col>
-                <Col span={6} offset={3}>
+                <Col md={{span: 24}}
+                     lg={{span: 6, offset:3}}>
                     <Row justify={"end"} align={"middle"}>
                         <p className="footer-sentence">Chat with Eager Emu</p>
                         <a href="https://discord.gg/pGhp3BjQ">

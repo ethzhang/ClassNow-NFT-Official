@@ -8,25 +8,35 @@ const Main = () => {
     return (
         <div className="main-wrapper">
             <Row justify={"center"}>
-                <Col md={{span: 24}}
-                     lg={{span: 20}}>
-                    <Row align={"middle"}>
-                        <Col md={{span: 24}}
-                             lg={{span: 12}}>
-                            <SocialIcon className="main-logo" url="https://twitter.com/_classnow_" fgColor="#FDDD4E"
-                                        bgColor="#363A59"/>
-                            <p className="main-sentence">COLLECT THE&nbsp;</p>
-                            <Row>
-                                <p className="main-sentence-underlined">FIRST LAUNCH</p>
-                                <p className="main-sentence">!</p>
-                            </Row>
-                            <p className="main-count">5000 / 5000 NFTs</p>
-                            <a href="https://veace.xyz/">
-                                <Button className="main-buy-button">BUY NOW</Button>
-                            </a>
+                <Col xs={{span: 24}}
+                     sm={{span: 24}}
+                     md={{span: 20}}
+                     lg={{span: 20}}
+                     xl={{span: 20}}>
+                    <Row justify={"center"} align={"middle"}>
+                        <Col xs={{span: 18}}
+                             sm={{span: 18}}
+                             md={{span: 16}}
+                             lg={{span: 12}}
+                             xl={{span: 12}}>
+                            <div style={{maximunHeight:'700px'}}>
+                                <SocialIcon className="main-logo" fgColor="#FDDD4E" bgColor="#363A59"/>
+                                <p className="main-sentence">COLLECT THE</p>
+                                <Row>
+                                    <p className="main-sentence-underlined">FIRST LAUNCH</p>
+                                    <p className="main-sentence">!</p>
+                                </Row>
+                                <p className="main-count">5000 / 5000 NFTs</p>
+                                <a href="https://veace.xyz/">
+                                    <Button className="main-buy-button">BUY NOW</Button>
+                                </a>
+                            </div>
                         </Col>
-                        <Col md={{span: 24}}
-                             lg={{span: 12}}>
+                        <Col xs={{span: 18}}
+                             sm={{span: 18}}
+                             md={{span: 16}}
+                             lg={{span: 12}}
+                             xl={{span: 12}}>
                             <Row justify={"end"} align={"bottom"}>
                                 <img className="main-nft-pic" width={'100%'} src={nft31} alt="nft"/>
                             </Row>

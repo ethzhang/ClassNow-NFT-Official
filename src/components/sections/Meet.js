@@ -10,10 +10,16 @@ const Meet = () => {
     <div className="meet-wrapper">
         <Row justify={"center"}>
             <Col xs={{span: 24}}
-                 lg={{span: 20}}>
+                 sm={{span: 24}}
+                 md={{span: 20}}
+                 lg={{span: 20}}
+                 xl={{span: 20}}>
                 <Row align={"middle"}>
-                    <Col md={{span: 24}}
-                         lg={{span: 12}}>
+                    <Col xs={{span: 24}}
+                         sm={{span: 24}}
+                         md={{span: 24}}
+                         lg={{span: 12}}
+                         xl={{span: 12}}>
                         <Card className="meet-card">
                             <p className="session-title">MEET EMU</p>
                             <p className="meet-content">
@@ -33,13 +39,17 @@ const Meet = () => {
                             </p>
                         </Card>
                     </Col>
-                    <Col md={{span: 24}}
-                         lg={{span: 12}}>
+                    <Col xs={{span: 24}}
+                         sm={{span: 24}}
+                         md={{span: 24}}
+                         lg={{span: 12}}
+                         xl={{span: 12}}
+                         style={{padding: '16px'}}>
                         <Row gutter={[16, 16]}>
-                            <Col span={12}><img width={'100%'} src={nft11} alt="nft"/></Col>
-                            <Col span={12}><img width={'100%'} src={nft2} alt="nft"/></Col>
-                            <Col span={12}><img width={'100%'} src={nft3} alt="nft"/></Col>
-                            <Col span={12}><img width={'100%'} src={nft4} alt="nft"/></Col>
+                            <Col xs={{span: 6}} sm={{span: 12}} md={{span: 12}} lg={{span: 12}} xl={{span: 12}}><img width={'100%'} src={nft11} alt="nft"/></Col>
+                            <Col xs={{span: 6}} sm={{span: 12}} md={{span: 12}} lg={{span: 12}} xl={{span: 12}}><img width={'100%'} src={nft2} alt="nft"/></Col>
+                            <Col xs={{span: 6}} sm={{span: 12}} md={{span: 12}} lg={{span: 12}} xl={{span: 12}}><img width={'100%'} src={nft3} alt="nft"/></Col>
+                            <Col xs={{span: 6}} sm={{span: 12}} md={{span: 12}} lg={{span: 12}} xl={{span: 12}}><img width={'100%'} src={nft4} alt="nft"/></Col>
                         </Row>
                     </Col>
                 </Row>

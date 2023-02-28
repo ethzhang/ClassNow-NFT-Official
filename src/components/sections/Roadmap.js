@@ -16,8 +16,8 @@ const Roadmap = () => {
                         <p className="roadmap-content-left">Q2 2023</p>
                         <ul className="roadmap-content-left">
                             <li>Launch of ClassNow Eager Emu NFT public sale</li>
-                            <li>Completion of the Eager Emu NFT collection</li>
-                            <li>Community events and collaborations to promote the Eager Emu NFTs</li>
+                            {/*<li>Completion of the Eager Emu NFT collection</li>*/}
+                            {/*<li>Community events and collaborations to promote the Eager Emu NFTs</li>*/}
                         </ul>
                     </Col>
                     <Col span={4}>
@@ -32,7 +32,7 @@ const Roadmap = () => {
                         <p className="roadmap-content-left">Q3 2023</p>
                         <ul className="roadmap-content-left">
                             <li>Launch of the ClassNow token (CLN) and token sale</li>
-                            <li>Integration of the ClassNow token into the ClassNow platform</li>
+                            {/*<li>Integration of the ClassNow token into the ClassNow platform</li>*/}
                             <li>Launch of ClassNow Learn/Share & Earn program</li>
                         </ul>
                     </Col>
@@ -43,7 +43,7 @@ const Roadmap = () => {
                         <ul className="roadmap-content-left">
                             <li>Launch of the ClassNow DAO (decentralized autonomous organization)</li>
                             <li>Community governance of the ClassNow platform</li>
-                            <li>Continuous development of the ClassNow platform based on community feedback</li>
+                            {/*<li>Continuous development of the ClassNow platform based on community feedback</li>*/}
                         </ul>
                     </Col>
                     <Col span={4}>
@@ -58,7 +58,7 @@ const Roadmap = () => {
                         <p className="roadmap-content-left">Q1 2024</p>
                         <ul className="roadmap-content-left">
                             <li>Launch of the ClassNow ICO (initial coin offering)</li>
-                            <li>Expansion of the ClassNow platform to reach more learners and educators</li>
+                            {/*<li>Expansion of the ClassNow platform to reach more learners and educators</li>*/}
                             <li>Integration of blockchain technology into the ClassNow platform to enhance security and transparency</li>
                         </ul>
                     </Col>
