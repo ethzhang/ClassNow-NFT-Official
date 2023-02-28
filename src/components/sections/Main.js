@@ -19,8 +19,7 @@ const Main = () => {
                              md={{span: 16}}
                              lg={{span: 12}}
                              xl={{span: 12}}>
-                            <div style={{maximunHeight:'700px'}}>
-                                <SocialIcon className="main-logo" fgColor="#FDDD4E" bgColor="#363A59"/>
+                                <SocialIcon className="margin-20" fgColor="#FDDD4E" bgColor="#363A59"/>
                                 <p className="main-sentence">COLLECT THE</p>
                                 <Row>
                                     <p className="main-sentence-underlined">FIRST LAUNCH</p>
@@ -30,7 +29,6 @@ const Main = () => {
                                 <a href="https://veace.xyz/">
                                     <Button className="main-buy-button">BUY NOW</Button>
                                 </a>
-                            </div>
                         </Col>
                         <Col xs={{span: 18}}
                              sm={{span: 18}}

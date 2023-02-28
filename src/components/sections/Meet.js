@@ -46,10 +46,10 @@ const Meet = () => {
                          xl={{span: 12}}
                          style={{padding: '16px'}}>
                         <Row gutter={[16, 16]}>
-                            <Col xs={{span: 6}} sm={{span: 12}} md={{span: 12}} lg={{span: 12}} xl={{span: 12}}><img width={'100%'} src={nft11} alt="nft"/></Col>
-                            <Col xs={{span: 6}} sm={{span: 12}} md={{span: 12}} lg={{span: 12}} xl={{span: 12}}><img width={'100%'} src={nft2} alt="nft"/></Col>
-                            <Col xs={{span: 6}} sm={{span: 12}} md={{span: 12}} lg={{span: 12}} xl={{span: 12}}><img width={'100%'} src={nft3} alt="nft"/></Col>
-                            <Col xs={{span: 6}} sm={{span: 12}} md={{span: 12}} lg={{span: 12}} xl={{span: 12}}><img width={'100%'} src={nft4} alt="nft"/></Col>
+                            <Col xs={{span: 12}} sm={{span: 12}} md={{span: 12}} lg={{span: 12}} xl={{span: 12}}><img width={'100%'} src={nft11} alt="nft"/></Col>
+                            <Col xs={{span: 12}} sm={{span: 12}} md={{span: 12}} lg={{span: 12}} xl={{span: 12}}><img width={'100%'} src={nft2} alt="nft"/></Col>
+                            <Col xs={{span: 12}} sm={{span: 12}} md={{span: 12}} lg={{span: 12}} xl={{span: 12}}><img width={'100%'} src={nft3} alt="nft"/></Col>
+                            <Col xs={{span: 12}} sm={{span: 12}} md={{span: 12}} lg={{span: 12}} xl={{span: 12}}><img width={'100%'} src={nft4} alt="nft"/></Col>
                         </Row>
                     </Col>
                 </Row>
