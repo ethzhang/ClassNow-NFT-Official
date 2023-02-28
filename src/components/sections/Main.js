@@ -20,10 +20,10 @@ const Main = () => {
                              lg={{span: 12}}
                              xl={{span: 12}}>
                                 <SocialIcon className="margin-20" fgColor="#FDDD4E" bgColor="#363A59"/>
-                                <p className="main-sentence">COLLECT THE</p>
-                                <Row>
-                                    <p className="main-sentence-underlined">FIRST LAUNCH</p>
-                                    <p className="main-sentence">!</p>
+                                <p className="main-sentence-1">COLLECT THE</p>
+                                <Row align={"middle"}>
+                                    <p className="main-sentence-underlined">FIRST LAUNCH !</p>
+                                    {/*<p className="main-sentence-2">&nbsp;!</p>*/}
                                 </Row>
                                 <p className="main-count">5000 / 5000 NFTs</p>
                                 <a href="https://veace.xyz/">
