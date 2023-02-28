@@ -17,7 +17,7 @@ const Main = () => {
                         <Col xs={{span: 20}}
                              sm={{span: 20}}
                              md={{span: 20}}
-                             lg={{span: 12}}
+                             lg={{span: 16}}
                              xl={{span: 12}}>
                             <div className="margin-32">
                                 <SocialIcon fgColor="#FDDD4E" bgColor="#363A59"/>
@@ -35,7 +35,7 @@ const Main = () => {
                         <Col xs={{span: 18}}
                              sm={{span: 18}}
                              md={{span: 18}}
-                             lg={{span: 12}}
+                             lg={{span: 8}}
                              xl={{span: 12}}>
                             <Row justify={"end"} align={"bottom"}>
                                 <img className="main-nft-pic" width={'100%'} src={nft31} alt="nft"/>
