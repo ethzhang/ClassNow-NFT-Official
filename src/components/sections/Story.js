@@ -6,14 +6,27 @@ const Story = () => {
   return (
     <div className="story-wrapper">
         <Row justify={"center"}>
-            <Col span={20}>
+            <Col xs={{span: 24}}
+                 sm={{span: 24}}
+                 md={{span: 24}}
+                 lg={{span: 20}}
+                 xl={{span: 20}}>
                 <Row align={"middle"}>
-                    <Col style={{padding: '64px'}} span={10}>
+                    <Col xs={{span: 24}}
+                         sm={{span: 24}}
+                         md={{span: 24}}
+                         lg={{span: 12}}
+                         xl={{span: 12}}
+                         style={{padding: '5%'}}>
                         <Row gutter={[16, 16]}>
                             <Col span={24}><img width={'100%'} src={nft2} alt="nft"/></Col>
                         </Row>
                     </Col>
-                    <Col span={14}>
+                    <Col xs={{span: 24}}
+                         sm={{span: 24}}
+                         md={{span: 24}}
+                         lg={{span: 12}}
+                         xl={{span: 12}}>
                         <Card className="story-card">
                             <p className="session-title">STORY</p>
                             <p className="story-content">
