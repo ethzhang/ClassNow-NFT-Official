@@ -8,9 +8,11 @@ const Main = () => {
     return (
         <div className="main-wrapper">
             <Row justify={"center"}>
-                <Col span={20}>
+                <Col md={{span: 24}}
+                     lg={{span: 20}}>
                     <Row align={"middle"}>
-                        <Col span={12}>
+                        <Col md={{span: 24}}
+                             lg={{span: 12}}>
                             <SocialIcon className="main-logo" url="https://twitter.com/_classnow_" fgColor="#FDDD4E"
                                         bgColor="#363A59"/>
                             <p className="main-sentence">COLLECT THE&nbsp;</p>
@@ -23,7 +25,8 @@ const Main = () => {
                                 <Button className="main-buy-button">BUY NOW</Button>
                             </a>
                         </Col>
-                        <Col span={12}>
+                        <Col md={{span: 24}}
+                             lg={{span: 12}}>
                             <Row justify={"end"} align={"bottom"}>
                                 <img className="main-nft-pic" width={'100%'} src={nft31} alt="nft"/>
                             </Row>
