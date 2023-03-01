@@ -10,15 +10,17 @@ const Main = () => {
             <Row justify={"center"}>
                 <Col xs={{span: 24}}
                      sm={{span: 24}}
-                     md={{span: 20}}
-                     lg={{span: 20}}
-                     xl={{span: 20}}>
+                     md={{span: 24}}
+                     lg={{span: 22}}
+                     xl={{span: 20}}
+                     xxl={{span: 20}}>
                     <Row justify={"center"} align={"middle"}>
                         <Col xs={{span: 20}}
                              sm={{span: 20}}
-                             md={{span: 20}}
-                             lg={{span: 16}}
-                             xl={{span: 12}}>
+                             md={{span: 15}}
+                             lg={{span: 15}}
+                             xl={{span: 12}}
+                             xxl={{span: 12}}>
                             <div className="margin-32">
                                 <SocialIcon fgColor="#FDDD4E" bgColor="#363A59"/>
                                 <p className="main-sentence-1">COLLECT THE</p>
@@ -35,8 +37,9 @@ const Main = () => {
                         <Col xs={{span: 18}}
                              sm={{span: 18}}
                              md={{span: 18}}
-                             lg={{span: 8}}
-                             xl={{span: 12}}>
+                             lg={{span: 9}}
+                             xl={{span: 12}}
+                             xxl={{span: 12}}>
                             <Row justify={"end"} align={"bottom"}>
                                 <img className="main-nft-pic" width={'100%'} src={nft31} alt="nft"/>
                             </Row>

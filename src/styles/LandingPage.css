@@ -14,7 +14,7 @@
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
     .app {
-        max-width: 1200px;
+        max-width: 1600px;
         margin: 0 auto;
     }
 }
@@ -128,6 +128,37 @@
     padding: 32px 64px;
 }
 
+@media screen and (max-width: 768px) {
+    .meet-card {
+        width: 100%;
+        height: auto;
+        background-color: #f8dda9;
+        border-width: 5px;
+        border-color: #181717;
+        border-radius: 50px;
+        margin: 0;
+        padding: 32px 16px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .meet-nft-pic {
+        margin: 64px 0 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .meet-nft-pic {
+        margin: 64px 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .meet-nft-pic {
+        margin: 32px 0 0;
+    }
+}
+
 .session-title {
     font-family: 'Anoushka', sans-serif;
     font-size: 42px;
@@ -155,18 +186,6 @@
     padding: 0 64px;
 }
 
-/*@media screen and (max-width: 1200px) {*/
-/*    .meet-nft {*/
-/*        padding: 0 0 0 16px;*/
-/*    }*/
-/*}*/
-
-/*@media screen and (min-width: 1200px) and (max-width: 1600px) {*/
-/*    .meet-nft {*/
-/*        padding: 0 0 0 64px;*/
-/*    }*/
-/*}*/
-
 /*Story*/
 .story-wrapper {
     display: flex;
@@ -175,19 +194,34 @@
     background-color: #75ff9b;
     width: 100%;
     height: auto;
-    /*aspect-ratio: 1920/892;*/
     padding: 50px 0;
+}
+
+.story-pic {
+    display: none;
 }
 
 .story-card {
     width: 100%;
     height: auto;
-    /*aspect-ratio: 4/3;*/
     background-color: #d6ffef;
     border-width: 5px;
     border-color: #181717;
     border-radius: 50px;
-    padding: 6% 6%;
+    padding: 32px 64px;
+}
+
+@media screen and (max-width: 768px) {
+    .story-card {
+        width: 100%;
+        height: auto;
+        background-color: #d6ffef;
+        border-width: 5px;
+        border-color: #181717;
+        border-radius: 50px;
+        margin: 0;
+        padding: 32px 16px;
+    }
 }
 
 .story-content {
