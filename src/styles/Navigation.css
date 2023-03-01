@@ -53,7 +53,7 @@
 .right-menu {
     float: right;
     height: 100%;
-    line-height: 65px;
+    line-height: 64px;
 }
 
 .right-menu-item {
@@ -67,6 +67,7 @@
     font-size: 25px;
     color: #181717;
     background-color: #EFF3F2;
+    height: 100%;
     border: #EFF3F2;
     padding: 0 16px;
 }
@@ -78,4 +79,5 @@
     color: #EFF3F2;
     background-color: #181717;
     margin: 0 50px;
+    /*padding: 4px 0 0 0;*/
 }
