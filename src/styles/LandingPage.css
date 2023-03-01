@@ -241,17 +241,31 @@
     background-color: #969AC2;
     width: 100%;
     height: auto;
+    padding: 50px 0;
 }
 
 .roadmap-card {
-    width: 80%;
+    width: 100%;
     height: auto;
     background-color: #C9D6EA;
     border-width: 5px;
     border-color: #181717;
     border-radius: 50px;
-    padding: 5% 5%;
-    margin: 6% 10%;
+    margin: 0;
+    padding: 32px 64px;
+}
+
+@media screen and (max-width: 768px) {
+    .roadmap-card {
+        width: 100%;
+        height: auto;
+        background-color: #C9D6EA;
+        border-width: 5px;
+        border-color: #181717;
+        border-radius: 50px;
+        margin: 0;
+        padding: 32px 16px;
+    }
 }
 
 .roadmap-content-left {
@@ -276,17 +290,31 @@
     background-color: #E4AFD0;
     width: 100%;
     height: auto;
+    padding: 50px 0;
 }
 
 .team-card {
-    width: 80%;
+    width: 100%;
     height: auto;
     background-color: #FFD7EF;
     border-width: 5px;
     border-color: #181717;
     border-radius: 50px;
-    padding: 2% 5%;
-    margin: 6% 10%;
+    margin: 0;
+    padding: 32px 64px;
+}
+
+@media screen and (max-width: 768px) {
+    .roadmap-card {
+        width: 100%;
+        height: auto;
+        background-color: #FFD7EF;
+        border-width: 5px;
+        border-color: #181717;
+        border-radius: 50px;
+        margin: 0;
+        padding: 32px 16px;
+    }
 }
 
 .team-avatar {
