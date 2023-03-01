@@ -20,17 +20,17 @@ const Team = () => {
                      xxl={{span: 20}}>
                     <Card className="team-card">
                         <p className="session-title">THE TEAM</p>
-                        <Row gutter={[32, 0]} justify={"center"} style={{margin: '0 0 32px'}}>
-                            <Col span={6}>
+                        <Row gutter={[16, 0]} justify={"center"}>
+                            <Col xs={13} sm={13} md={13} lg={17} xl={6} xxl={6}>
                                 <Row className="avatar-row" justify={"center"} align={"middle"}>
                                     <img className="team-avatar" src={nft1} alt="nft"/>
-                                    <div className="profile-mask">
-                                        <p className="profile-text profile-padding-top">Serial entrepreneur since
-                                            2014</p>
-                                        <p className="profile-text">Passionate, creative and community-driven</p>
-                                        <p className="profile-text">Ex-telecommunications engineer</p>
-                                        <p className="profile-text">Founder of Jia HE Production</p>
-                                    </div>
+                                    {/*<div className="profile-mask">*/}
+                                    {/*    <p className="profile-text profile-padding-top">Serial entrepreneur since*/}
+                                    {/*        2014</p>*/}
+                                    {/*    <p className="profile-text">Passionate, creative and community-driven</p>*/}
+                                    {/*    <p className="profile-text">Ex-telecommunications engineer</p>*/}
+                                    {/*    <p className="profile-text">Founder of Jia HE Production</p>*/}
+                                    {/*</div>*/}
                                 </Row>
                                 <Row justify={"center"} align={"middle"}>
                                     <p className="team-name">Jia HE</p>
@@ -39,14 +39,14 @@ const Team = () => {
                                     <p className="team-title">Founder & CEO</p>
                                 </Row>
                             </Col>
-                            <Col span={6}>
+                            <Col xs={12} sm={12} md={12} lg={8} xl={6} xxl={6}>
                                 <Row className="avatar-row" justify={"center"} align={"middle"}>
                                     <img className="team-avatar" src={nft2} alt="nft"/>
-                                    <div className="profile-mask">
-                                        <p className="profile-text profile-padding-top">Director & Tech Lead in Tencent
-                                            Technology</p>
-                                        <p className="profile-text">Product Specialist in Alibaba DingTalk</p>
-                                    </div>
+                                    {/*<div className="profile-mask">*/}
+                                    {/*    <p className="profile-text profile-padding-top">Director & Tech Lead in Tencent*/}
+                                    {/*        Technology</p>*/}
+                                    {/*    <p className="profile-text">Product Specialist in Alibaba DingTalk</p>*/}
+                                    {/*</div>*/}
                                 </Row>
                                 <Row justify={"center"} align={"middle"}>
                                     <p className="team-name">Ethan Zhang</p>
@@ -55,13 +55,13 @@ const Team = () => {
                                     <p className="team-title">Co-founder & CTO</p>
                                 </Row>
                             </Col>
-                            <Col span={6}>
+                            <Col xs={12} sm={12} md={12} lg={8} xl={6} xxl={6}>
                                 <Row className="avatar-row" justify={"center"} align={"middle"}>
                                     <img className="team-avatar" src={nft3} alt="nft"/>
-                                    <div className="profile-mask">
-                                        <p className="profile-text profile-padding-top">Master of Finance, UNSW</p>
-                                        <p className="profile-text">Social Media Influencer</p>
-                                    </div>
+                                    {/*<div className="profile-mask">*/}
+                                    {/*    <p className="profile-text profile-padding-top">Master of Finance, UNSW</p>*/}
+                                    {/*    <p className="profile-text">Social Media Influencer</p>*/}
+                                    {/*</div>*/}
                                 </Row>
                                 <Row justify={"center"} align={"middle"}>
                                     <p className="team-name">Celine Zhong</p>
@@ -70,35 +70,14 @@ const Team = () => {
                                     <p className="team-title">CMO</p>
                                 </Row>
                             </Col>
-                        </Row>
-
-                        <Row gutter={[32, 0]} justify={"center"}>
-                            <Col span={6}>
-                                <Row className="avatar-row" justify={"center"} align={"middle"}>
-                                    <img className="team-avatar" src={nft4} alt="nft"/>
-                                    <div className="profile-mask">
-                                        <p className="profile-text profile-padding-top">Fellow of IET UK</p>
-                                        <p className="profile-text">Conjoint Professor of UNSW, UTS & Macquarie
-                                            University</p>
-                                        <p className="profile-text">Senior Member of IEEE</p>
-                                        <p className="profile-text">PhD Supervisor</p>
-                                    </div>
-                                </Row>
-                                <Row justify={"center"} align={"middle"}>
-                                    <p className="team-name">Prof. Shiping Chen</p>
-                                </Row>
-                                <Row justify={"center"} align={"middle"}>
-                                    <p className="team-title">Web3 Advisor</p>
-                                </Row>
-                            </Col>
-                            <Col span={6}>
+                            <Col xs={12} sm={12} md={12} lg={8} xl={6} xxl={6}>
                                 <Row className="avatar-row" justify={"center"} align={"middle"}>
                                     <img className="team-avatar" src={nft11} alt="nft"/>
-                                    <div className="profile-mask">
-                                        <p className="profile-text profile-padding-top">MGSM, Macquarie University</p>
-                                        <p className="profile-text">Operated more than 10 coffee shops</p>
-                                        <p className="profile-text">Founded Didi Catering platform</p>
-                                    </div>
+                                    {/*<div className="profile-mask">*/}
+                                    {/*    <p className="profile-text profile-padding-top">MGSM, Macquarie University</p>*/}
+                                    {/*    <p className="profile-text">Operated more than 10 coffee shops</p>*/}
+                                    {/*    <p className="profile-text">Founded Didi Catering platform</p>*/}
+                                    {/*</div>*/}
                                 </Row>
                                 <Row justify={"center"} align={"middle"}>
                                     <p className="team-name">Sophie Sun</p>
@@ -107,12 +86,30 @@ const Team = () => {
                                     <p className="team-title">Business Advisor</p>
                                 </Row>
                             </Col>
-                            <Col span={6}>
+                            <Col xs={12} sm={12} md={12} lg={8} xl={6} xxl={6}>
+                                <Row className="avatar-row" justify={"center"} align={"middle"}>
+                                    <img className="team-avatar" src={nft4} alt="nft"/>
+                                    {/*<div className="profile-mask">*/}
+                                    {/*    <p className="profile-text profile-padding-top">Fellow of IET UK</p>*/}
+                                    {/*    <p className="profile-text">Conjoint Professor of UNSW, UTS & Macquarie*/}
+                                    {/*        University</p>*/}
+                                    {/*    <p className="profile-text">Senior Member of IEEE</p>*/}
+                                    {/*    <p className="profile-text">PhD Supervisor</p>*/}
+                                    {/*</div>*/}
+                                </Row>
+                                <Row justify={"center"} align={"middle"}>
+                                    <p className="team-name">Prof. Shiping Chen</p>
+                                </Row>
+                                <Row justify={"center"} align={"middle"}>
+                                    <p className="team-title">Web3 Advisor</p>
+                                </Row>
+                            </Col>
+                            <Col xs={12} sm={12} md={12} lg={8} xl={6} xxl={6}>
                                 <Row className="avatar-row" justify={"center"} align={"middle"}>
                                     <img className="team-avatar" src={nft12} alt="nft"/>
-                                    <div className="profile-mask">
-                                        <p className="profile-text profile-padding-top">Full Stack Developer</p>
-                                    </div>
+                                    {/*<div className="profile-mask">*/}
+                                    {/*    <p className="profile-text profile-padding-top">Full Stack Developer</p>*/}
+                                    {/*</div>*/}
                                 </Row>
                                 <Row justify={"center"} align={"middle"}>
                                     <p className="team-name">Deon Zhang</p>
@@ -121,16 +118,16 @@ const Team = () => {
                                     <p className="team-title">Software Engineer</p>
                                 </Row>
                             </Col>
-                            <Col span={6}>
+                            <Col xs={12} sm={12} md={12} lg={8} xl={6} xxl={6}>
                                 <Row className="avatar-row" justify={"center"} align={"middle"}>
                                     <img className="team-avatar" src={nft2} alt="nft"/>
-                                    <div className="profile-mask">
-                                        <p className="profile-text profile-padding-top">Master of Professional
-                                            Engineering,
-                                            USYD</p>
-                                        <p className="profile-text profile-padding-top">Front End Web Developer</p>
-                                        <p className="profile-text profile-padding-top">UX/UI Designer</p>
-                                    </div>
+                                    {/*<div className="profile-mask">*/}
+                                    {/*    <p className="profile-text profile-padding-top">Master of Professional*/}
+                                    {/*        Engineering,*/}
+                                    {/*        USYD</p>*/}
+                                    {/*    <p className="profile-text profile-padding-top">Front End Web Developer</p>*/}
+                                    {/*    <p className="profile-text profile-padding-top">UX/UI Designer</p>*/}
+                                    {/*</div>*/}
                                 </Row>
                                 <Row justify={"center"} align={"middle"}>
                                     <p className="team-name">Anna Tang</p>
