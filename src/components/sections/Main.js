@@ -30,7 +30,7 @@ const Main = () => {
                                 </Row>
                                 <p className="main-count">5000 / 5000 NFTs</p>
                                 <a href="https://veace.xyz/">
-                                    <Button className="main-buy-button">BUY NOW</Button>
+                                    <Button className="main-buy-button">MINT NOW</Button>
                                 </a>
                             </div>
                         </Col>
