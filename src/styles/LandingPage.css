@@ -97,13 +97,13 @@
     font-size: 32px;
     font-weight: bold;
     letter-spacing: 5px;
-    width: 60%;
+    width: auto;
     height: auto;
-    aspect-ratio: 10/2;
+    /*aspect-ratio: 10/2;*/
     color: #FDDD4E;
     background-color: #363A59;
     border-color: #EFF3F2;
-    padding: 3% 0 0;
+    padding: 10px 20px 0;
 }
 
 /*Meet*/
