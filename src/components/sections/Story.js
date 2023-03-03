@@ -29,11 +29,12 @@ const Story = () => {
                              xxl={{span: 14}}>
                             <Card className="story-card">
                                 <p className="session-title">STORY</p>
-                                <p className="story-content">
-                                    There is one lonely emu on the emu planet, one with shiny fur, but lonely. <i>Why
-                                    am I the only one here all along? When can I find someone else?</i> That emu
-                                    mumbled everyday and wondered in the big world expecting to meet someone. Help
-                                    this poor emu by bringing new emus to that planet!</p>
+                                <p className="meet-story-content">
+                                    There is one emu on the emu planet, one with shiny fur, but lonely.
+                                    <i> &nbsp; Why am I the only one here all along? &nbsp; When can I find someone
+                                        else? &nbsp; </i>
+                                    That emu mumbled everyday and wondered in the big world expecting to meet someone.
+                                    Help this poor emu by bringing new emus to that planet!</p>
                             </Card>
                         </Col>
                     </Row>

@@ -17,9 +17,9 @@ const Roadmap = () => {
                      xl={{span: 20}}
                      xxl={{span: 20}}>
                     <Card className="roadmap-card">
-                        <p className="session-title" style={{padding: '0 64px'}}>ROADMAP</p>
+                        <p className="roadmap-title">ROADMAP</p>
                         <Row gutter={[16, 32]} align={"middle"}>
-                            <Col xs={{span: 21}}
+                            <Col xs={{span: 19}}
                                  sm={{span: 21}}
                                  md={{span: 21}}
                                  lg={{span: 15}}
@@ -31,7 +31,7 @@ const Roadmap = () => {
                                     <br/><strong>Q4 2022</strong>
                                     <br/>Turnover reaches 500,000 AUD</p>
                             </Col>
-                            <Col xs={{span: 3}}
+                            <Col xs={{span: 5}}
                                  sm={{span: 3}}
                                  md={{span: 3}}
                                  lg={{span: 3}}
@@ -40,7 +40,7 @@ const Roadmap = () => {
                                 <img className="roadmap-image" src={roadmap1} alt="roadmap1"/>
                             </Col>
 
-                            <Col xs={{span: 3}}
+                            <Col xs={{span: 5}}
                                  sm={{span: 3}}
                                  md={{span: 3}}
                                  lg={{span: 3, offset: 6}}
@@ -48,7 +48,7 @@ const Roadmap = () => {
                                  xxl={{span: 3, offset: 9}}>
                                 <img className="roadmap-image" src={roadmap2} alt="roadmap2"/>
                             </Col>
-                            <Col xs={{span: 21}}
+                            <Col xs={{span: 19}}
                                  sm={{span: 21}}
                                  md={{span: 21}}
                                  lg={{span: 15}}
@@ -59,7 +59,7 @@ const Roadmap = () => {
                                     <br/>ClassNow Eager Emu NFT public sale</p>
                             </Col>
 
-                            <Col xs={{span: 21}}
+                            <Col xs={{span: 19}}
                                  sm={{span: 21}}
                                  md={{span: 21}}
                                  lg={{span: 15}}
@@ -70,7 +70,7 @@ const Roadmap = () => {
                                     <br/>ClassNow token (CLN) sale
                                     <br/>ClassNow Learn/Share & Earn program</p>
                             </Col>
-                            <Col xs={{span: 3}}
+                            <Col xs={{span: 5}}
                                  sm={{span: 3}}
                                  md={{span: 3}}
                                  lg={{span: 3}}
@@ -79,7 +79,7 @@ const Roadmap = () => {
                                 <img className="roadmap-image" src={roadmap3} alt="roadmap3"/>
                             </Col>
 
-                            <Col xs={{span: 3}}
+                            <Col xs={{span: 5}}
                                  sm={{span: 3}}
                                  md={{span: 3}}
                                  lg={{span: 3, offset: 6}}
@@ -87,7 +87,7 @@ const Roadmap = () => {
                                  xxl={{span: 3, offset: 9}}>
                                 <img className="roadmap-image" src={roadmap4} alt="roadmap4"/>
                             </Col>
-                            <Col xs={{span: 21}}
+                            <Col xs={{span: 19}}
                                  sm={{span: 21}}
                                  md={{span: 21}}
                                  lg={{span: 15}}
@@ -100,7 +100,7 @@ const Roadmap = () => {
                                 </p>
                             </Col>
 
-                            <Col xs={{span: 21}}
+                            <Col xs={{span: 19}}
                                  sm={{span: 21}}
                                  md={{span: 21}}
                                  lg={{span: 15}}
@@ -111,7 +111,7 @@ const Roadmap = () => {
                                     <br/>ClassNow ICO (initial coin offering)
                                     <br/>Integration of blockchain into ClassNow platform</p>
                             </Col>
-                            <Col xs={{span: 3}}
+                            <Col xs={{span: 5}}
                                  sm={{span: 3}}
                                  md={{span: 3}}
                                  lg={{span: 3}}
