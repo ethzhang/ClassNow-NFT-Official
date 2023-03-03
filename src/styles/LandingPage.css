@@ -33,7 +33,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 576px) and (max-width: 768px) {
     .app {
         max-width: 576px;
         margin: 0 auto;
@@ -59,51 +59,96 @@
     text-align: right;
 }
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 576px) and (max-width: 1450px) {
     .margin-32 {
         margin: 32px;
     }
 }
 
-.main-sentence-1 {
-    font-family: 'Delight Coffee', sans-serif;
-    font-size: 36px;
-    font-weight: bold;
-    letter-spacing: 5px;
-    color: #F9C10B;
-    margin: 64px 0 16px 0;
+@media screen and (max-width: 576px) {
+    .main-sentence-1 {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        color: #F9C10B;
+        margin: 32px 0 16px 0;
+    }
+
+    .main-sentence-underlined {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        border-bottom: 15px double #F9C10B;
+        color: #F9C10B;
+        margin: 0 0 16px;
+    }
+
+    .main-count {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        color: #EFF3F2;
+    }
+
+    .main-buy-button {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        width: auto;
+        height: auto;
+        /*aspect-ratio: 10/2;*/
+        color: #FDDD4E;
+        background-color: #363A59;
+        border-color: #EFF3F2;
+        padding: 10px 20px 0;
+    }
 }
 
-.main-sentence-underlined {
-    font-family: 'Delight Coffee', sans-serif;
-    font-size: 36px;
-    font-weight: bold;
-    letter-spacing: 5px;
-    border-bottom: 15px double #F9C10B;
-    color: #F9C10B;
-    margin: 0 0 16px;
-}
+@media screen and (min-width: 576px) {
+    .main-sentence-1 {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        color: #F9C10B;
+        margin: 64px 0 16px 0;
+    }
 
-.main-count {
-    font-family: 'Delight Coffee', sans-serif;
-    font-size: 36px;
-    font-weight: bold;
-    letter-spacing: 5px;
-    color: #EFF3F2;
-}
+    .main-sentence-underlined {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        border-bottom: 15px double #F9C10B;
+        color: #F9C10B;
+        margin: 0 0 16px;
+    }
 
-.main-buy-button {
-    font-family: 'Delight Coffee', sans-serif;
-    font-size: 32px;
-    font-weight: bold;
-    letter-spacing: 5px;
-    width: auto;
-    height: auto;
-    /*aspect-ratio: 10/2;*/
-    color: #FDDD4E;
-    background-color: #363A59;
-    border-color: #EFF3F2;
-    padding: 10px 20px 0;
+    .main-count {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        color: #EFF3F2;
+    }
+
+    .main-buy-button {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 32px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        width: auto;
+        height: auto;
+        /*aspect-ratio: 10/2;*/
+        color: #FDDD4E;
+        background-color: #363A59;
+        border-color: #EFF3F2;
+        padding: 10px 20px 0;
+    }
 }
 
 /*Meet*/
