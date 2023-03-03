@@ -15,7 +15,7 @@ const Main = () => {
                      xl={{span: 20}}
                      xxl={{span: 20}}>
                     <Row justify={"center"} align={"middle"}>
-                        <Col xs={{span: 20}}
+                        <Col xs={{span: 24}}
                              sm={{span: 20}}
                              md={{span: 15}}
                              lg={{span: 15}}

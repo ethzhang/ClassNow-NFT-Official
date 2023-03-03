@@ -28,17 +28,17 @@ const Meet = () => {
                         >
                             <Card className="meet-card">
                                 <p className="session-title">MEET EMU</p>
-                                <p className="meet-content">
+                                <p className="meet-story-content">
                                     <strong>More than flex! &nbsp;</strong>
                                     Eager Emu is a collection of 5000 NFTs, each of which is an authentic art treasure.
                                 </p>
-                                <p className="meet-content">
+                                <p className="meet-story-content">
                                     <strong>Mascot and spirit of ClassNow! &nbsp;</strong>
                                     The Emus are always eager to learn. Just like&nbsp;
                                     <a className="link"
                                        href="https://www.theclassnow.com/index.html">ClassNow</a>
                                     is always on the move, empowering educators and businesses to share knowledge.</p>
-                                <p className="meet-content">
+                                <p className="meet-story-content">
                                     <strong>About utility! &nbsp;</strong>
                                     Holders are claiming their perks to enjoy the upcoming premire ClassNow features.
                                 </p>

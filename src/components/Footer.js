@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <div className="footer">
             <Row justify={"center"} align={"middle"} style={{padding: '50px 0'}}>
-                <Col xs={{span: 18}}
+                <Col xs={{span: 22}}
                      sm={{span: 18}}
                      md={{span: 16}}
                      lg={{span: 22}}
