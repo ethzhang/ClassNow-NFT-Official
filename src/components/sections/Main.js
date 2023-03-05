@@ -1,6 +1,7 @@
 import React from 'react'
 import {Row, Col, Button} from 'antd';
 import {SocialIcon} from 'react-social-icons';
+import logo from "../../assets/logo.png";
 import nft31 from "../../assets/31.png";
 import '../../styles/LandingPage.css';
 
@@ -22,7 +23,16 @@ const Main = () => {
                              xl={{span: 12}}
                              xxl={{span: 12}}>
                             <div className="margin-32">
-                                <SocialIcon fgColor="#FDDD4E" bgColor="#363A59"/>
+                                <Row>
+                                    <Col xs={{span: 5}}
+                                         sm={{span: 5}}
+                                         md={{span: 5}}
+                                         lg={{span: 3}}
+                                         xl={{span: 3}}
+                                         xxl={{span: 3}}>
+                                        <img width={'100%'} src={logo} alt="logo"/>
+                                    </Col>
+                                </Row>
                                 <p className="main-sentence-1">COLLECT THE</p>
                                 <Row align={"middle"}>
                                     <p className="main-sentence-underlined">FIRST LAUNCH !</p>
