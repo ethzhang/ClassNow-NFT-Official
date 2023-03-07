@@ -1,25 +1,75 @@
 @import url('https://fonts.cdnfonts.com/css/delight-coffee-2');
 
-.navbar {
-    height: 64px;
-    overflow: hidden;
-    position: relative;
-    background: #EFF3F2;
-    padding: 0 60px;
+@media screen and (min-width: 1200px) {
+    .navbar-wrapper {
+        height: 64px;
+    }
+
+    .left-menu {
+        float: left;
+        height: 100%;
+        line-height: 64px;
+    }
+
+    .right-menu {
+        float: right;
+        height: 100%;
+        line-height: 64px;
+    }
+
+    .middle-menu {
+        display: inline-block;
+        /*padding: 0 8px;*/
+        height: 100%;
+        vertical-align: text-bottom;
+    }
 }
 
-.left-menu {
-    float: left;
-    height: 100%;
-    line-height: 64px;
+@media screen and (max-width: 1200px) {
+    .navbar-wrapper {
+        /*height: 64px;*/
+    }
+
+    .left-menu {
+        float: left;
+        height: 100%;
+        /*line-height: 64px;*/
+    }
+
+    .middle-menu {
+        float: left;
+        height: 100%;
+        /*line-height: 64px;*/
+    }
+
+    .right-menu {
+        float: right;
+        height: 100%;
+        /*line-height: 64px;*/
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .navbar {
+        background: #EFF3F2;
+        padding: 0 64px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        background: #EFF3F2;
+        padding: 0;
+    }
 }
 
 .logo-wrapper {
     display: inline-block;
-    padding: 0 8px;
-    margin: 0 50px;
+    /*padding: 0 8px;*/
+    /*margin: 0 50px;*/
     height: 100%;
     vertical-align: text-bottom;
+    /*line-height: 64px;*/
 }
 
 .logo-name {
@@ -30,14 +80,11 @@
 }
 
 .logo {
-    margin: 0 15px;
-}
-
-.middle-menu {
-    display: inline-block;
-    padding: 0 8px;
-    height: 100%;
-    vertical-align: text-bottom;
+    /*margin: 0 15px;*/
+    width: auto;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto;
 }
 
 .middle-menu-item {
@@ -50,15 +97,10 @@
     padding: 0 32px;
 }
 
-.right-menu {
-    float: right;
-    height: 100%;
-    line-height: 64px;
-}
 
 .right-menu-item {
     display: inline-block;
-    padding: 0 8px;
+    /*padding: 0 8px;*/
     height: 100%;
     vertical-align: text-bottom;
 }
@@ -78,6 +120,5 @@
     font-weight: bold;
     color: #EFF3F2;
     background-color: #181717;
-    margin: 0 50px;
-    /*padding: 4px 0 0 0;*/
+    /*margin: auto 50px;*/
 }

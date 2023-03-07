@@ -1,6 +1,14 @@
 @import url('https://fonts.cdnfonts.com/css/anoushka');
 @import url('https://fonts.cdnfonts.com/css/delight-coffee-2');
 
+. color-pattern {
+    /*color: #EFF3F2;*/
+    /*color: #FDDD4E;*/
+    /*color: #363A59;*/
+    /*background-color: #C62E42;*/
+    /*border-color: #181717;*/
+}
+
 .container {
     background-color: #EFF3F2;
 }
@@ -52,6 +60,13 @@
     padding: 0;
 }
 
+.main-logo {
+    /*border-color: #F9C10B;*/
+    /*border-radius: 50%;*/
+    width: 150px;
+    height: auto;
+}
+
 .main-nft-pic {
     width: 100%;
     height: auto;
@@ -59,10 +74,8 @@
     text-align: right;
 }
 
-@media screen and (max-width: 576px) and (max-width: 1450px) {
-    .margin-32 {
-        margin: 32px;
-    }
+.margin-32 {
+    margin: 32px;
 }
 
 @media screen and (min-width: 576px) {
@@ -109,13 +122,13 @@
         padding: 32px 64px;
     }
 
-    .main-sentence-1 {
+    .main-sentence {
         font-family: 'Delight Coffee', sans-serif;
         font-size: 36px;
         font-weight: bold;
         letter-spacing: 5px;
         color: #F9C10B;
-        margin: 64px 0 16px 0;
+        margin: 32px 0 16px 0;
     }
 
     .main-sentence-underlined {
@@ -176,6 +189,16 @@
         letter-spacing: 1px;
         color: #181717;
         margin: 20px 0 0;
+    }
+
+    .roadmap-title {
+        font-family: 'Anoushka', sans-serif;
+        font-size: 42px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-style: italic;
+        color: #181717;
+        margin: 0 0 40px;
     }
 
     .roadmap-content-left {
