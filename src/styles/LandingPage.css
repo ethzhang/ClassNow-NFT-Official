@@ -191,6 +191,16 @@
         margin: 20px 0 0;
     }
 
+    .roadmap-title {
+        font-family: 'Anoushka', sans-serif;
+        font-size: 42px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-style: italic;
+        color: #181717;
+        margin: 0 0 40px;
+    }
+
     .roadmap-content-left {
         font-family: 'Delight Coffee', sans-serif;
         font-size: 18px;
