@@ -14,8 +14,8 @@ const Navigation = () => {
                 {/*Left Menu*/}
                 <Col
                     xs={{span: 24}}
-                    // sm={{span: 18}}
-                    // md={{span: 24}}
+                    sm={{span: 24}}
+                    md={{span: 24}}
                     lg={{span: 18}}
                     xl={{span: 18}}
                     xxl={{span: 18}}
@@ -24,47 +24,26 @@ const Navigation = () => {
 
                         {/*Logo & Name*/}
                         <Col
-                            xs={{span: 10}}
-                            // sm={{span: 6}}
-                            // md={{span: 8}}
+                            xs={{span: 24}}
+                            sm={{span: 24}}
+                            md={{span: 6}}
                             lg={{span: 6}}
                             xl={{span: 6}}
                             xxl={{span: 6}}
                         >
                             <Row justify="space-between" align={"middle"}>
 
-                                <Col
-                                    // xs={{span: 8}}
-                                    // sm={{span: 8}}
-                                    // md={{span: 8}}
-                                    lg={{span: 8}}
-                                    xl={{span: 8}}
-                                    xxl={{span: 8}}
-                                >
+                                <Col span={8}>
                                     <Row justify={"end"} align={"middle"}>
                                         <p className="logo-name" style={{margin: '0'}}>Eager</p>
                                     </Row>
                                 </Col>
-                                <Col
-                                    // xs={{span: 8}}
-                                    // sm={{span: 8}}
-                                    // md={{span: 8}}
-                                    lg={{span: 8}}
-                                    xl={{span: 8}}
-                                    xxl={{span: 8}}
-                                >
+                                <Col span={8}>
                                     <Row justify={"center"} align={"middle"}>
                                         <img className="logo" src={logoNav} alt="logo"/>
                                     </Row>
                                 </Col>
-                                <Col
-                                    // xs={{span: 6}}
-                                    // sm={{span: 6}}
-                                    // md={{span: 6}}
-                                    lg={{span: 6}}
-                                    xl={{span: 6}}
-                                    xxl={{span: 6}}
-                                >
+                                <Col span={6}>
                                     <Row justify={"start"} align={"middle"}>
                                         <p className="logo-name" style={{margin: '0'}}>Emu</p>
                                     </Row>
@@ -75,9 +54,9 @@ const Navigation = () => {
 
                         {/*Menu Item*/}
                         <Col
-                            xs={{span: 13, offset: 1}}
-                            // sm={{span: 12, offset: 1}}
-                            // md={{span: 10, offset: 2}}
+                            xs={{span: 24, offset: 0}}
+                            sm={{span: 24, offset: 0}}
+                            md={{span: 12, offset: 2}}
                             lg={{span: 12, offset: 2}}
                             xl={{span: 10, offset: 2}}
                             xxl={{span: 8, offset: 2}}
@@ -98,7 +77,7 @@ const Navigation = () => {
                 {/*Right Menu*/}
                 <Col
                     xs={{span: 24}}
-                    // sm={{span: 6}}
+                    sm={{span: 24}}
                     md={{span: 9}}
                     lg={{span: 6}}
                     xl={{span: 6}}
@@ -108,8 +87,8 @@ const Navigation = () => {
 
                         {/*Social Links*/}
                         <Col
-                            // xs={{span: 12}}
-                            // sm={{span: 12}}
+                            xs={{span: 12}}
+                            sm={{span: 12}}
                             md={{span: 10}}
                             lg={{span: 14}}
                             xl={{span: 12}}
@@ -125,8 +104,8 @@ const Navigation = () => {
 
                         {/*Connect Button*/}
                         <Col
-                            // xs={{span: 12}}
-                            // sm={{span: 12}}
+                            xs={{span: 12}}
+                            sm={{span: 12}}
                             md={{span: 10}}
                             lg={{span: 10}}
                             xl={{span: 12}}

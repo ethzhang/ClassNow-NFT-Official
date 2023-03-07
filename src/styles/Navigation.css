@@ -25,29 +25,29 @@
     }
 }
 
-/*@media screen and (max-width: 1200px) {*/
-/*    .navbar-wrapper {*/
-/*        !*height: 64px;*!*/
-/*    }*/
+@media screen and (max-width: 1200px) {
+    .navbar-wrapper {
+        /*height: 64px;*/
+    }
 
-/*    .left-menu {*/
-/*        float: left;*/
-/*        height: 100%;*/
-/*        !*line-height: 64px;*!*/
-/*    }*/
+    .left-menu {
+        float: left;
+        height: 100%;
+        /*line-height: 64px;*/
+    }
 
-/*    .middle-menu {*/
-/*        float: left;*/
-/*        height: 100%;*/
-/*        !*line-height: 64px;*!*/
-/*    }*/
+    .middle-menu {
+        float: left;
+        height: 100%;
+        /*line-height: 64px;*/
+    }
 
-/*    .right-menu {*/
-/*        float: right;*/
-/*        height: 100%;*/
-/*        !*line-height: 64px;*!*/
-/*    }*/
-/*}*/
+    .right-menu {
+        float: right;
+        height: 100%;
+        /*line-height: 64px;*/
+    }
+}
 
 @media screen and (min-width: 992px) {
     .navbar {
@@ -56,12 +56,12 @@
     }
 }
 
-/*@media screen and (max-width: 992px) {*/
-/*    .navbar {*/
-/*        background: #EFF3F2;*/
-/*        padding: 0;*/
-/*    }*/
-/*}*/
+@media screen and (max-width: 992px) {
+    .navbar {
+        background: #EFF3F2;
+        padding: 0;
+    }
+}
 
 .logo-wrapper {
     display: inline-block;
