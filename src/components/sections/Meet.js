@@ -34,9 +34,9 @@ const Meet = () => {
                                 </p>
                                 <p className="meet-story-content">
                                     <strong>Mascot and spirit of ClassNow! &nbsp;</strong>
-                                    The Emus are always eager to learn. Just like&nbsp;
+                                    The Emus are always eager to learn. Just like
                                     <a className="link"
-                                       href="https://www.theclassnow.com/index.html">ClassNow</a>
+                                       href="https://www.theclassnow.com/index.html">&nbsp;ClassNow&nbsp;</a>
                                     is always on the move, empowering educators and businesses to share knowledge.</p>
                                 <p className="meet-story-content">
                                     <strong>About utility! &nbsp;</strong>
