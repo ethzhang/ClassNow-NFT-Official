@@ -1,9 +1,9 @@
 import React from 'react'
 import {Row, Col, Card} from 'antd'
-import nft2 from "../../assets/2.png";
-import nft3 from "../../assets/3.png";
-import nft4 from "../../assets/4.png";
-import nft11 from "../../assets/11.png";
+import nftMeet1 from "../../assets/nftMeet1.png";
+import nftMeet2 from "../../assets/nftMeet2.png";
+import nftMeet3 from "../../assets/nftMeet3.png";
+import nftMeet4 from "../../assets/nftMeet4.png";
 
 const Meet = () => {
     return (
@@ -55,13 +55,13 @@ const Meet = () => {
                         >
                             <Row gutter={[16, 16]}>
                                 <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
-                                    <img width={'100%'} src={nft11} alt="nft"/></Col>
+                                    <img width={'100%'} src={nftMeet1} alt="nft"/></Col>
                                 <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
-                                    <img width={'100%'} src={nft2} alt="nft"/></Col>
+                                    <img width={'100%'} src={nftMeet2} alt="nft"/></Col>
                                 <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
-                                    <img width={'100%'} src={nft3} alt="nft"/></Col>
+                                    <img width={'100%'} src={nftMeet3} alt="nft"/></Col>
                                 <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
-                                    <img width={'100%'} src={nft4} alt="nft"/></Col>
+                                    <img width={'100%'} src={nftMeet4} alt="nft"/></Col>
                             </Row>
                         </Col>
                     </Row>

@@ -1,6 +1,6 @@
 import React from 'react'
 import {Row, Col, Card} from 'antd'
-import nft2 from "../../assets/2.png";
+import nftStory from "../../assets/nftstory.png";
 
 const Story = () => {
     return (
@@ -19,7 +19,7 @@ const Story = () => {
                              lg={{span: 0}}
                              xl={{span: 9}}
                              xxl={{span: 9}}>
-                            <img width={'100%'} src={nft2} alt="nft"/>
+                            <img width={'100%'} src={nftStory} alt="nft"/>
                         </Col>
                         <Col xs={{span: 24}}
                              sm={{span: 24}}

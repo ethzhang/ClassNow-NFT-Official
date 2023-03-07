@@ -2,7 +2,7 @@ import React from 'react'
 import {Row, Col, Button} from 'antd';
 import {SocialIcon} from 'react-social-icons';
 import logoMain from "../../assets/logo-m.png";
-import nft31 from "../../assets/31.png";
+import nftMain from "../../assets/nftMain.png";
 import '../../styles/LandingPage.css';
 
 const Main = () => {
@@ -36,7 +36,6 @@ const Main = () => {
                                 <p className="main-sentence">COLLECT THE</p>
                                 <Row align={"middle"}>
                                     <p className="main-sentence-underlined">FIRST LAUNCH !</p>
-                                    {/*<p className="main-sentence-2">&nbsp;!</p>*/}
                                 </Row>
                                 <p className="main-count">5000 / 5000 NFTs</p>
                                 <a href="https://veace.xyz/">
@@ -51,7 +50,7 @@ const Main = () => {
                              xl={{span: 12}}
                              xxl={{span: 12}}>
                             <Row justify={"end"} align={"bottom"}>
-                                <img className="main-nft-pic" width={'100%'} src={nft31} alt="nft"/>
+                                <img className="main-nft-pic" width={'100%'} src={nftMain} alt="nft"/>
                             </Row>
                         </Col>
                     </Row>
