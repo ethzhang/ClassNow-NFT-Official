@@ -1,7 +1,7 @@
 import React from 'react'
 import {Row, Col, Button} from 'antd';
 import {SocialIcon} from 'react-social-icons';
-import logo from "../../assets/logo.png";
+import logoMain from "../../assets/logo-m.png";
 import nft31 from "../../assets/31.png";
 import '../../styles/LandingPage.css';
 
@@ -30,10 +30,10 @@ const Main = () => {
                                          lg={{span: 3}}
                                          xl={{span: 3}}
                                          xxl={{span: 3}}>
-                                        <img width={'100%'} src={logo} alt="logo"/>
+                                        <img className="main-logo" src={logoMain} alt="logo"/>
                                     </Col>
                                 </Row>
-                                <p className="main-sentence-1">COLLECT THE</p>
+                                <p className="main-sentence">COLLECT THE</p>
                                 <Row align={"middle"}>
                                     <p className="main-sentence-underlined">FIRST LAUNCH !</p>
                                     {/*<p className="main-sentence-2">&nbsp;!</p>*/}
