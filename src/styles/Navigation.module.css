@@ -1,0 +1,129 @@
+@import url('https://fonts.cdnfonts.com/css/delight-coffee-2');
+
+@media screen and (min-width: 1200px) {
+    .navbar_wrapper {
+        height: 64px;
+        /*margin-bottom: 15px;*/
+    }
+
+    .left_menu {
+        float: left;
+        height: 100%;
+        line-height: 64px;
+    }
+
+    .right_menu {
+        float: right;
+        height: 100%;
+        line-height: 64px;
+    }
+
+    .middle_menu {
+        display: inline-block;
+        /*padding: 0 8px;*/
+        height: 100%;
+        vertical-align: text-bottom;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar_wrapper {
+        /*height: 64px;*/
+    }
+
+    .left_menu {
+        float: left;
+        height: 100%;
+        /*line-height: 64px;*/
+    }
+
+    .middle_menu {
+        float: left;
+        height: 100%;
+        /*line-height: 64px;*/
+    }
+
+    .right_menu {
+        float: right;
+        height: 100%;
+        /*line-height: 64px;*/
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .navbar {
+        background: #EFF3F2;
+        padding: 0 64px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        background: #EFF3F2;
+        padding: 0;
+    }
+}
+
+.logo_wrapper {
+    display: inline-block;
+    /*padding: 0 8px;*/
+    /*margin: 0 50px;*/
+    height: 100%;
+    vertical-align: text-bottom;
+    /*line-height: 64px;*/
+}
+
+.logo_name {
+    font-family: 'Delight Coffee', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #181717;
+}
+
+.logo {
+    /*margin: 0 15px;*/
+    width: auto;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.middle_menu_item {
+    font-family: 'Delight Coffee', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #181717;
+    background-color: #EFF3F2;
+    border: #EFF3F2;
+    padding: 0 32px;
+}
+
+
+.right_menu_item {
+    display: inline-block;
+    /*padding: 0 8px;*/
+    height: 100%;
+    vertical-align: text-bottom;
+}
+
+.social_link_item {
+    font-size: 25px;
+    color: #181717;
+    background-color: #EFF3F2;
+    height: 100%;
+    border: #EFF3F2;
+    padding: 0 16px;
+}
+
+.connect_button {
+    font-family: 'Delight Coffee', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #EFF3F2;
+    background-color: #181717;
+    /*margin: auto 50px;*/
+}
+
+.marginbut{
+    margin-bottom: 10px;
+}

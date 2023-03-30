@@ -1,0 +1,35 @@
+@import url('https://fonts.cdnfonts.com/css/delight-coffee-2');
+
+.footer {
+    background-color: #EFF3F2;
+}
+
+.footer_menu {
+    font-family: 'Delight Coffee', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #181717;
+}
+
+.footer_sentence {
+    background-image: linear-gradient(to right, #FF8C00, #FF0080);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Delight Coffee', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer_linkedin {
+    font-size: 25px;
+    color: #181717;
+    background-color: #EFF3F2;
+    padding: 0 16px;
+}
+
+.footer_social_icon {
+    font-size: 30px;
+    color: #FF0080;
+    background-color: #EFF3F2;
+    padding: 0 16px;
+}
