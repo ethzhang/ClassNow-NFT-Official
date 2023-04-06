@@ -1,0 +1,510 @@
+@import url('https://fonts.cdnfonts.com/css/anoushka');
+@import url('https://fonts.cdnfonts.com/css/delight-coffee-2');
+
+.color_pattern {
+    /*color: #EFF3F2;*/
+    /*color: #FDDD4E;*/
+    /*color: #363A59;*/
+    /*background-color: #C62E42;*/
+    /*border-color: #181717;*/
+}
+
+.container {
+    background-color: #EFF3F2;
+}
+
+@media screen and (min-width: 1600px) {
+    .app {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+    .app {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .app {
+        max-width: 992px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .app {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .app {
+        max-width: 576px;
+        margin: 0 auto;
+    }
+}
+
+/*Main*/
+.main_wrapper {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: #C62E42;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.main_logo {
+    /*border-color: #F9C10B;*/
+    /*border-radius: 50%;*/
+    width: 150px;
+    height: auto;
+}
+
+.main_nft_pic {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    text-align: right;
+}
+
+.margin_32 {
+    margin: 32px;
+}
+
+@media screen and (min-width: 576px) {
+    .meet_card {
+        width: 100%;
+        height: auto;
+        background-color: #f8dda9;
+        border-width: 5px;
+        border-color: #181717;
+        border-radius: 50px;
+        margin: 0;
+        padding: 32px 64px;
+    }
+
+    .story_card {
+        width: 100%;
+        height: auto;
+        background-color: #d6ffef;
+        border-width: 5px;
+        border-color: #181717;
+        border-radius: 50px;
+        padding: 32px 64px;
+    }
+
+    .roadmap_card {
+        width: 100%;
+        height: auto;
+        background-color: #C9D6EA;
+        border-width: 5px;
+        border-color: #181717;
+        border-radius: 50px;
+        margin: 0;
+        padding: 32px 0;
+    }
+
+    .team_card {
+        width: 100%;
+        height: auto;
+        background-color: #FFD7EF;
+        border-width: 5px;
+        border-color: #181717;
+        border-radius: 50px;
+        margin: 0;
+        padding: 32px 64px;
+    }
+
+    .main_sentence {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        color: #F9C10B;
+        margin: 32px 0 16px 0;
+    }
+
+    .main_sentence_underlined {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        border-bottom: 15px double #F9C10B;
+        color: #F9C10B;
+        margin: 0 0 16px;
+    }
+
+    .main_count {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        color: #EFF3F2;
+    }
+
+    .main_buy_button {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 32px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        width: auto;
+        height: auto;
+        /*aspect-ratio: 10/2;*/
+        color: #FDDD4E;
+        background-color: #363A59;
+        border-color: #EFF3F2;
+        padding: 10px 20px 0;
+    }
+
+    .session_title {
+        font-family: 'Anoushka', sans-serif;
+        font-size: 42px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-style: italic;
+        color: #181717;
+        margin: 0 0 40px;
+    }
+
+    .meet_story_content {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        color: #181717;
+        margin: 20px 0 0;
+    }
+
+    .story_content {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        color: #181717;
+        margin: 20px 0 0;
+    }
+
+    .roadmap_title {
+        font-family: 'Anoushka', sans-serif;
+        font-size: 42px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-style: italic;
+        color: #181717;
+        margin: 0 64px 40px;
+    }
+
+    .roadmap_content_left {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        color: #181717;
+        margin: 20px 0 0;
+    }
+
+    .roadmap_content_right {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        text-align: right;
+        color: #181717;
+        margin: 20px 0 0;
+    }
+
+    .team_name {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        color: #181717;
+        margin: 8px 0 0;
+    }
+
+    .team_title {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        color: #181717;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .meet_card {
+        width: 100%;
+        height: auto;
+        background-color: #f8dda9;
+        border-width: 5px;
+        border-color: #181717;
+        border-radius: 20px;
+        margin: 0;
+        padding: 16px;
+    }
+
+    .story_card {
+        width: 100%;
+        height: auto;
+        background-color: #d6ffef;
+        border-width: 5px;
+        border-color: #181717;
+        border-radius: 20px;
+        margin: 0;
+        padding: 16px;
+    }
+
+    .roadmap_card {
+        width: 100%;
+        height: auto;
+        background-color: #C9D6EA;
+        border-width: 5px;
+        border-color: #181717;
+        border-radius: 20px;
+        margin: 0;
+        /*padding: 16px;*/
+    }
+
+    .team_card {
+        width: 100%;
+        height: auto;
+        background-color: #FFD7EF;
+        border-width: 5px;
+        border-color: #181717;
+        border-radius: 20px;
+        margin: 0;
+        padding: 16px;
+    }
+
+    .main_sentence {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        color: #F9C10B;
+        margin: 32px 0 16px 0;
+    }
+
+    .main_sentence_underlined {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        border-bottom: 15px double #F9C10B;
+        color: #F9C10B;
+        margin: 0 0 16px;
+    }
+
+    .main_count {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        color: #EFF3F2;
+    }
+
+    .main_buy_button {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        width: auto;
+        height: auto;
+        /*aspect-ratio: 10/2;*/
+        color: #FDDD4E;
+        background-color: #363A59;
+        border-color: #EFF3F2;
+        padding: 10px 20px 0;
+    }
+
+    .session_title {
+        font-family: 'Anoushka', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-style: italic;
+        color: #181717;
+        margin: 0 0 40px;
+    }
+
+    .roadmap_title {
+        font-family: 'Anoushka', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-style: italic;
+        color: #181717;
+        margin: 0 16px 40px;
+    }
+
+    .meet_story_content {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        color: #181717;
+        margin: 20px 0 0;
+    }
+
+    .roadmap_content_left {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        color: #181717;
+        margin: 20px 0 0;
+    }
+
+    .roadmap_content_right {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        text-align: right;
+        color: #181717;
+        margin: 20px 0 0;
+    }
+
+    .team_name {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        color: #181717;
+        margin: 8px 0 0;
+    }
+
+    .team_title {
+        font-family: 'Delight Coffee', sans-serif;
+        font-size: 12px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        color: #181717;
+        margin: 0;
+    }
+}
+
+/*Meet*/
+.meet_wrapper {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: #F9C10B;
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .meet_nft_pic {
+        margin: 64px 0 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .meet_nft_pic {
+        margin: 64px 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .meet_nft_pic {
+        margin: 32px 0 0;
+    }
+}
+
+.link {
+    color: #4D92FF;
+}
+
+.meet-nft {
+    padding: 0 64px;
+}
+
+/*Story*/
+.story_wrapper {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: #75ff9b;
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+
+.story_pic {
+    display: none;
+}
+
+/*Roadmap*/
+.roadmap_wrapper {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: #969AC2;
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+
+.roadmap_image {
+    width: 100%;
+    height: auto;
+}
+
+/*Team*/
+.team_wrapper {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: #E4AFD0;
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+
+.team_avatar {
+    width: 60%;
+    border-width: 3px;
+    border-color: #181717;
+    border-radius: 50%;
+    border-style: solid;
+}
+
+.profile_mask {
+    position: absolute;
+    background-color: rgb(24, 23, 23, .8);
+    color: white;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    pointer-events: none;
+    opacity: 0;
+    text-align: left;
+}
+
+.avatar_row:hover .profile_mask {
+    opacity: 1;
+}
+
+.profile_text {
+    font-family: 'Ikka Rounded', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    vertical-align: middle;
+    padding: 0 20px;
+}
+
+.profile_padding_top {
+    padding-top: 15px;
+}

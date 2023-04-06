@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../nft_landing_page_react.iml" filepath="$PROJECT_DIR$/../nft_landing_page_react.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ClassNow-NFT-Official.iml" filepath="$PROJECT_DIR$/.idea/ClassNow-NFT-Official.iml" />
     </modules>
   </component>
 </project>
