@@ -19,6 +19,10 @@ export const PageIndex = () => {
   return (
     <div className="h-full w-full flex flex-col bg-auto bg-no-repeat bg-right-bottom"
     >
+      <link
+          href="https://fonts.cdnfonts.com/css/delight-coffee-2"
+          rel="stylesheet"
+      />
       {/*<HeaderMenu />*/}
       <Navigation />
       <Main />
