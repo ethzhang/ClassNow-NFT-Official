@@ -22,7 +22,7 @@ function MyApp(props: AppProps) {
         <meta name="twitter:title" content="" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="/fonts/font.css" />
-        <title>Lenen</title>
+        <title>Eager Emu</title>
       </Head>
       <Providers>
         <App {...props} />
