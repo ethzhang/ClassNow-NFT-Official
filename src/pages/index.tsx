@@ -28,16 +28,7 @@ export const PageIndex = () => {
       <Team />
       <Footer />
       
-      <div>
-        <ButtonC
-          onClick={() => {
-            handleApprove()
-          }}
-        >Approve {requestedApproval === 2 ? ' Success ' : ' '}</ButtonC>
-      </div>
-      <div className="mt-5">
-        <ButtonC >Transfer</ButtonC>
-      </div>
+      
       
       
     </div>
