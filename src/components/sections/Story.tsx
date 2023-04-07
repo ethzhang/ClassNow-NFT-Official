@@ -29,7 +29,7 @@ const Story = () => {
                              xl={{span: 14}}
                              xxl={{span: 14}}>
                             <Card className={styles.story_card}>
-                                <p className={styles.ession_title}>STORY</p>
+                                <p className={styles.session_title}>STORY</p>
                                 <p className={styles.meet_story_content}>
                                     There is one emu on the emu planet, one with shiny fur, but lonely.
                                     <i> &nbsp; Why am I the only one here all along? &nbsp; When can I find someone

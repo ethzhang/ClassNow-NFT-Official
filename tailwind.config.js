@@ -21,6 +21,7 @@ module.exports = {
     },
     fontFamily: {
       'body': ['"Delight Coffee"'],
+      'sans': ['Helvetica', 'Arial', 'sans-serif'],
     }
   },
   plugins: [],
