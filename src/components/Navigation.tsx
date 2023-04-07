@@ -12,10 +12,11 @@ import {useTranslation} from "../contexts/Localization";
 const Navigation = () => {
     // const {account} = useActiveWeb3React()
     // const {requestedApproval, handleApprove} = useApprove(chainTokens.usdt.address)
-    const { t } = useTranslation()
+    const {t} = useTranslation()
     // @ts-ignore
     return (
         <div className={styles.navbar}>
+
             <Row justify="space-between" align={"middle"} className={styles.navbar_wrapper}>
 
 
@@ -28,7 +29,7 @@ const Navigation = () => {
                     xl={{span: 18}}
                     xxl={{span: 18}}
                 >
-                    <Row justify="start" align={"middle"} >
+                    <Row justify="start" align={"middle"}>
 
                         {/*Logo & Name*/}
                         <Col
@@ -70,7 +71,7 @@ const Navigation = () => {
                             xl={{span: 10, offset: 2}}
                             xxl={{span: 8, offset: 2}}
                         >
-                            <Row justify="space-between" align={"middle"}>
+                            <Row justify="space-between" align={"middle"} className={`font-body`}>
                                 <a href="/">
                                     <span className={styles.middle_menu_item}>HOME</span>
                                 </a>
@@ -124,11 +125,13 @@ const Navigation = () => {
                                 <Col
                                     className={styles.right_menu_item}>
                                     <div className='h-[58px] mb-6 md:mb-0 md:h-auto'>
-                                        <div className='min-w-[375px] h-[58px]  flex items-center px-[20px] xl:px-[52px] z-50'>
+                                        <div
+                                            className='min-w-[375px] h-[58px]  flex items-center px-[20px] xl:px-[52px] z-50'>
 
-                                                <div className='flex'>
-                                                    <ConnectButton className=' ml-1 h-[36px] text-xs text-[#000000]'>{t('connect wallet')}</ConnectButton>
-                                                </div>
+                                            <div className='flex'>
+                                                <ConnectButton
+                                                    className=' ml-1 h-[36px] text-xs text-[#000000]'>{t('connect wallet')}</ConnectButton>
+                                            </div>
                                         </div>
                                     </div>
                                     {/*<Button className={styles.connect_button} size="large"*/}
